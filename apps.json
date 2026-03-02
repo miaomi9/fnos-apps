@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-03-02T16:14:15Z",
+  "generated_at": "2026-03-02T16:28:35Z",
   "source": {
     "name": "conversun/fnos-apps",
     "url": "https://github.com/conversun/fnos-apps"
@@ -212,7 +212,7 @@
         "arm"
       ],
       "updated_at": "2026-03-02T16:14:02Z",
-      "download_count": 1069,
+      "download_count": 1070,
       "app_type": "native",
       "category": "store"
     },
@@ -391,8 +391,8 @@
       "display_name": "MoviePilot",
       "description": "影视自动化管理工具,支持自动订阅、下载、整理和通知。首次启动通过 Web UI 配置。",
       "version": "2.9.13",
-      "fpk_version": "2.9.13",
-      "release_tag": "moviepilot/v2.9.13",
+      "fpk_version": "2.9.13-r1",
+      "release_tag": "moviepilot/v2.9.13-r1",
       "service_port": 3000,
       "homepage_url": "https://github.com/jxxghp/MoviePilot",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/moviepilot/fnos/ICON_256.PNG",
@@ -400,10 +400,11 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-02T08:13:06Z",
+      "updated_at": "2026-03-02T16:28:23Z",
       "download_count": 166,
       "app_type": "docker",
-      "category": "content"
+      "category": "content",
+      "post_install_note": "请在 Web UI 中设置媒体库和下载目录，确保与下载工具（如 qBittorrent）使用的路径一致。"
     },
     {
       "slug": "navidrome",
