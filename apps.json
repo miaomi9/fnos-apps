@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-03-03T19:05:07Z",
+  "generated_at": "2026-03-03T19:20:27Z",
   "source": {
     "name": "conversun/fnos-apps",
     "url": "https://github.com/conversun/fnos-apps"
@@ -645,8 +645,8 @@
       "display_name": "IT-Tools",
       "description": "开发者工具箱，提供 JSON/YAML 转换、编码解码等常用工具。",
       "version": "2024.10.22-7ca5933",
-      "fpk_version": "2024.10.22-7ca5933",
-      "release_tag": "it-tools/v2024.10.22-7ca5933",
+      "fpk_version": "2024.10.22-7ca5933-r1",
+      "release_tag": "it-tools/v2024.10.22-7ca5933-r1",
       "service_port": 8280,
       "homepage_url": "https://it-tools.tech",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/it-tools/fnos/ICON_256.PNG",
@@ -654,7 +654,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-03T15:01:48Z",
+      "updated_at": "2026-03-03T19:20:09Z",
       "download_count": 0,
       "app_type": "docker",
       "category": "system"
@@ -1130,11 +1130,11 @@
       "appname": "nginx-ui",
       "file_prefix": "nginx-ui",
       "display_name": "Nginx UI",
-      "description": "Nginx可视化管理面板，支持在线编辑配置、一键Reload、SSL证书管理。需搭配Nginx应用使用。",
+      "description": "Nginx可视化管理面板，内置Nginx引擎，支持在线编辑配置、一键Reload、SSL证书管理。",
       "version": "2.3.3",
       "fpk_version": "2.3.3-r7",
       "release_tag": "nginx-ui/v2.3.3-r7",
-      "service_port": 9000,
+      "service_port": 8889,
       "homepage_url": "https://github.com/0xJacky/nginx-ui",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/nginx-ui/fnos/ICON_256.PNG",
       "platforms": [
