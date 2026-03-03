@@ -1,7 +1,20 @@
 # Build artifacts
 *.fpk
 *.tmp
+app.tgz
 dist/
+
+# Downloaded binaries
+beszel
+chinesesubfinder
+filebrowser
+lucky
+config.yaml
+
+# Legacy scripts
+scripts/lucky.service
+scripts/luckyservice
+scripts/misnap_*.sh
 
 # macOS
 .DS_Store
