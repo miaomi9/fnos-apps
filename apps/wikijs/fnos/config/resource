@@ -1,0 +1,25 @@
+{
+    "port-config": {
+        "protocol-file": "WikiJs.sc"
+    },
+    "data-share": {
+        "shares": [
+            {
+                "name": "Wiki.js",
+                "permission": {
+                    "rw": [
+                        "wikijs"
+                    ]
+                }
+            }
+        ]
+    },
+    "docker-project": {
+        "projects": [
+            {
+                "name": "wikijs",
+                "path": "docker"
+            }
+        ]
+    }
+}

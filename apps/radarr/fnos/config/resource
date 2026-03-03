@@ -1,0 +1,19 @@
+{
+    "port-config": {
+        "protocol-file": "Radarr.sc"
+    },
+    "data-share": {
+        "shares": [
+            {
+                "name": "Radarr",
+                "permission": {
+                    "rw": [
+                        "radarr"
+                    ]
+                }
+            }
+        ]
+    },
+    "systemd-unit": {
+    }
+}

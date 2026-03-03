@@ -1,0 +1,10 @@
+#!/bin/sh
+APP_DIR="${TRIM_APPDEST}"
+APP_DATA_DIR=$1
+CONFIG_DIR="$APP_DATA_DIR/config"
+
+export HOME="$APP_DATA_DIR"
+mkdir -p "$CONFIG_DIR"
+
+cd "$APP_DATA_DIR" || exit 1
+exec "$APP_DIR/chinesesubfinder" -setconfigselfpath "$CONFIG_DIR"

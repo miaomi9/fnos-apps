@@ -1,0 +1,25 @@
+{
+    "port-config": {
+        "protocol-file": "Miniflux.sc"
+    },
+    "data-share": {
+        "shares": [
+            {
+                "name": "Miniflux",
+                "permission": {
+                    "rw": [
+                        "miniflux"
+                    ]
+                }
+            }
+        ]
+    },
+    "docker-project": {
+        "projects": [
+            {
+                "name": "miniflux",
+                "path": "docker"
+            }
+        ]
+    }
+}

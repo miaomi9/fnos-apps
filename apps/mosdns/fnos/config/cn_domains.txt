@@ -1,0 +1,16 @@
+geosite:cn
+cn
+qq.com
+taobao.com
+tencent.com
+jd.com
+bilibili.com
+youku.com
+iqiyi.com
+weibo.com
+zhihu.com
+douyin.com
+baidu.com
+163.com
+126.com
+sina.com.cn

@@ -1,0 +1,15 @@
+{
+    ".url": {
+        "wikijs.Application":
+        {
+            "title": "Wiki.js",
+            "desc": "Wiki.js",
+            "icon": "images/{0}.png",
+            "type": "url",
+            "port": "3100",
+            "protocol": "http",
+            "url": "/",
+            "allUsers": true
+        }
+    }
+}

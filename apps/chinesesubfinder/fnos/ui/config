@@ -1,0 +1,15 @@
+{
+    ".url": {
+        "chinesesubfinder.Application":
+        {
+            "title": "ChineseSubFinder",
+            "desc": "ChineseSubFinder",
+            "icon": "images/{0}.png",
+            "type": "url",
+            "port": "19035",
+            "protocol": "http",
+            "url": "/",
+            "allUsers": true
+        }
+    }
+}

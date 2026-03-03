@@ -1,0 +1,15 @@
+{
+    ".url": {
+        "stirling-pdf.Application":
+        {
+            "title": "Stirling-PDF",
+            "desc": "Stirling-PDF",
+            "icon": "images/{0}.png",
+            "type": "url",
+            "port": "18080",
+            "protocol": "http",
+            "url": "/",
+            "allUsers": true
+        }
+    }
+}

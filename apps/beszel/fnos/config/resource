@@ -1,0 +1,19 @@
+{
+    "port-config": {
+        "protocol-file": "Beszel.sc"
+    },
+    "data-share": {
+        "shares": [
+            {
+                "name": "Beszel",
+                "permission": {
+                    "rw": [
+                        "beszel"
+                    ]
+                }
+            }
+        ]
+    },
+    "systemd-unit": {
+    }
+}

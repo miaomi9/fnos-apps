@@ -1,0 +1,19 @@
+{
+    "port-config": {
+        "protocol-file": "Readarr.sc"
+    },
+    "data-share": {
+        "shares": [
+            {
+                "name": "Readarr",
+                "permission": {
+                    "rw": [
+                        "readarr"
+                    ]
+                }
+            }
+        ]
+    },
+    "systemd-unit": {
+    }
+}

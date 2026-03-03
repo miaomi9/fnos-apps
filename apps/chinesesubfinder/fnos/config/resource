@@ -1,0 +1,19 @@
+{
+    "port-config": {
+        "protocol-file": "ChineseSubFinder.sc"
+    },
+    "data-share": {
+        "shares": [
+            {
+                "name": "ChineseSubFinder",
+                "permission": {
+                    "rw": [
+                        "chinesesubfinder"
+                    ]
+                }
+            }
+        ]
+    },
+    "systemd-unit": {
+    }
+}

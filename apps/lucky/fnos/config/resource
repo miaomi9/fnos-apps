@@ -1,0 +1,19 @@
+{
+    "port-config": {
+        "protocol-file": "Lucky.sc"
+    },
+    "data-share": {
+        "shares": [
+            {
+                "name": "Lucky",
+                "permission": {
+                    "rw": [
+                        "lucky"
+                    ]
+                }
+            }
+        ]
+    },
+    "systemd-unit": {
+    }
+}

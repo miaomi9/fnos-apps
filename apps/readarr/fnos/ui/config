@@ -1,0 +1,15 @@
+{
+    ".url": {
+        "readarr.Application":
+        {
+            "title": "Readarr",
+            "desc": "Readarr",
+            "icon": "images/{0}.png",
+            "type": "url",
+            "port": "8787",
+            "protocol": "http",
+            "url": "/",
+            "allUsers": true
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "port-config": {
+        "protocol-file": "Prowlarr.sc"
+    },
+    "data-share": {
+        "shares": [
+            {
+                "name": "Prowlarr",
+                "permission": {
+                    "rw": [
+                        "prowlarr"
+                    ]
+                }
+            }
+        ]
+    },
+    "systemd-unit": {
+    }
+}

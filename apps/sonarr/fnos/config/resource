@@ -1,0 +1,19 @@
+{
+    "port-config": {
+        "protocol-file": "Sonarr.sc"
+    },
+    "data-share": {
+        "shares": [
+            {
+                "name": "Sonarr",
+                "permission": {
+                    "rw": [
+                        "sonarr"
+                    ]
+                }
+            }
+        ]
+    },
+    "systemd-unit": {
+    }
+}

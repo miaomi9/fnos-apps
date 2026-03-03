@@ -1,0 +1,15 @@
+{
+    ".url": {
+        "photoprism.Application":
+        {
+            "title": "PhotoPrism",
+            "desc": "PhotoPrism",
+            "icon": "images/{0}.png",
+            "type": "url",
+            "port": "2342",
+            "protocol": "http",
+            "url": "/",
+            "allUsers": true
+        }
+    }
+}

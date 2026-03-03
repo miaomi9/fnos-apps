@@ -1,0 +1,19 @@
+{
+    "port-config": {
+        "protocol-file": "MosDNS.sc"
+    },
+    "data-share": {
+        "shares": [
+            {
+                "name": "MosDNS",
+                "permission": {
+                    "rw": [
+                        "mosdns"
+                    ]
+                }
+            }
+        ]
+    },
+    "systemd-unit": {
+    }
+}

@@ -1,0 +1,15 @@
+{
+    ".url": {
+        "paperless-ngx.Application":
+        {
+            "title": "Paperless-ngx",
+            "desc": "Paperless-ngx",
+            "icon": "images/{0}.png",
+            "type": "url",
+            "port": "8000",
+            "protocol": "http",
+            "url": "/",
+            "allUsers": true
+        }
+    }
+}

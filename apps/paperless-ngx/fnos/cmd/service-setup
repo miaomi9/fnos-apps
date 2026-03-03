@@ -1,0 +1,8 @@
+#!/bin/bash
+
+service_postinst() {
+    mkdir -p "${TRIM_PKGVAR}/data" 2>/dev/null || true
+    mkdir -p "${TRIM_PKGVAR}/media" 2>/dev/null || true
+    mkdir -p "${TRIM_PKGVAR}/export" 2>/dev/null || true
+    mkdir -p "${TRIM_PKGVAR}/consume" 2>/dev/null || true
+}

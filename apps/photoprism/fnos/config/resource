@@ -1,0 +1,25 @@
+{
+    "port-config": {
+        "protocol-file": "PhotoPrism.sc"
+    },
+    "data-share": {
+        "shares": [
+            {
+                "name": "PhotoPrism",
+                "permission": {
+                    "rw": [
+                        "photoprism"
+                    ]
+                }
+            }
+        ]
+    },
+    "docker-project": {
+        "projects": [
+            {
+                "name": "photoprism",
+                "path": "docker"
+            }
+        ]
+    }
+}

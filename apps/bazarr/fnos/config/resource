@@ -1,0 +1,25 @@
+{
+    "port-config": {
+        "protocol-file": "Bazarr.sc"
+    },
+    "data-share": {
+        "shares": [
+            {
+                "name": "Bazarr",
+                "permission": {
+                    "rw": [
+                        "bazarr"
+                    ]
+                }
+            }
+        ]
+    },
+    "docker-project": {
+        "projects": [
+            {
+                "name": "bazarr",
+                "path": "docker"
+            }
+        ]
+    }
+}

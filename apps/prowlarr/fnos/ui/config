@@ -1,0 +1,15 @@
+{
+    ".url": {
+        "prowlarr.Application":
+        {
+            "title": "Prowlarr",
+            "desc": "Prowlarr",
+            "icon": "images/{0}.png",
+            "type": "url",
+            "port": "9696",
+            "protocol": "http",
+            "url": "/",
+            "allUsers": true
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    ".url": {
+        "homarr.Application":
+        {
+            "title": "Homarr",
+            "desc": "Homarr",
+            "icon": "images/{0}.png",
+            "type": "url",
+            "port": "7575",
+            "protocol": "http",
+            "url": "/",
+            "allUsers": true
+        }
+    }
+}

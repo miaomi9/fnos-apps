@@ -1,0 +1,15 @@
+{
+    ".url": {
+        "miniflux.Application":
+        {
+            "title": "Miniflux",
+            "desc": "Miniflux",
+            "icon": "images/{0}.png",
+            "type": "url",
+            "port": "8190",
+            "protocol": "http",
+            "url": "/",
+            "allUsers": true
+        }
+    }
+}

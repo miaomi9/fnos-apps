@@ -1,0 +1,25 @@
+{
+    "port-config": {
+        "protocol-file": "Homarr.sc"
+    },
+    "data-share": {
+        "shares": [
+            {
+                "name": "Homarr",
+                "permission": {
+                    "rw": [
+                        "homarr"
+                    ]
+                }
+            }
+        ]
+    },
+    "docker-project": {
+        "projects": [
+            {
+                "name": "homarr",
+                "path": "docker"
+            }
+        ]
+    }
+}
