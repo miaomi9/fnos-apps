@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-03-03T15:02:18Z",
+  "generated_at": "2026-03-03T15:02:27Z",
   "source": {
     "name": "conversun/fnos-apps",
     "url": "https://github.com/conversun/fnos-apps"
@@ -111,27 +111,6 @@
       "app_type": "docker",
       "category": "system",
       "post_install_note": "AppFlowy Cloud 需要配合 AppFlowy 客户端使用。"
-    },
-    {
-      "slug": "audiobookshelf",
-      "appname": "audiobookshelf",
-      "file_prefix": "audiobookshelf",
-      "display_name": "Audiobookshelf",
-      "description": "自托管的有声书和播客服务器，支持多用户管理、进度同步和丰富的元数据管理。",
-      "version": "2.32.1",
-      "fpk_version": "2.32.1-r2",
-      "release_tag": "audiobookshelf/v2.32.1-r2",
-      "service_port": 13378,
-      "homepage_url": "https://www.audiobookshelf.org",
-      "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/audiobookshelf/fnos/ICON_256.PNG",
-      "platforms": [
-        "x86",
-        "arm"
-      ],
-      "updated_at": "2026-02-19T17:20:53Z",
-      "download_count": 38,
-      "app_type": "docker",
-      "category": "content"
     },
     {
       "slug": "auto-bangumi",
@@ -528,7 +507,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "0001-01-01T00:00:00Z",
+      "updated_at": "2026-03-03T15:02:21Z",
       "download_count": 0,
       "app_type": "native",
       "category": "system"
@@ -658,6 +637,27 @@
       "download_count": 0,
       "app_type": "docker",
       "category": "system"
+    },
+    {
+      "slug": "jackett",
+      "appname": "jackett",
+      "file_prefix": "jackett",
+      "display_name": "Jackett",
+      "description": "Torrent 索引器代理，为 Sonarr/Radarr 等工具提供统一的搜索接口。",
+      "version": "0.24.1261",
+      "fpk_version": "0.24.1261",
+      "release_tag": "jackett/v0.24.1261",
+      "service_port": 9117,
+      "homepage_url": "https://github.com/Jackett/Jackett",
+      "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/jackett/fnos/ICON_256.PNG",
+      "platforms": [
+        "x86",
+        "arm"
+      ],
+      "updated_at": "0001-01-01T00:00:00Z",
+      "download_count": 0,
+      "app_type": "native",
+      "category": "media"
     },
     {
       "slug": "jellyfin",
@@ -1014,7 +1014,7 @@
         "arm"
       ],
       "updated_at": "2026-03-03T08:18:37Z",
-      "download_count": 203,
+      "download_count": 196,
       "app_type": "docker",
       "category": "content",
       "post_install_note": "请在 Web UI 中设置媒体库和下载目录，确保与下载工具（如 qBittorrent）使用的路径一致。"
@@ -1457,7 +1457,7 @@
         "arm"
       ],
       "updated_at": "2026-03-03T13:38:37Z",
-      "download_count": 0,
+      "download_count": 5,
       "app_type": "native",
       "category": "system"
     },
