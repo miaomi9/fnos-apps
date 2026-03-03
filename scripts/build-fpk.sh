@@ -126,6 +126,9 @@ if [ -n "$PLATFORM" ]; then
     fi
 fi
 sed -i.tmp "s/^checksum.*/checksum        = ${CHECKSUM}/" "$PKG_DIR/manifest"
+if [ -n "$FPK_VERSION" ]; then
+    echo "fpk_version     = ${FPK_VERSION}" >> "$PKG_DIR/manifest"
+fi
 rm -f "$PKG_DIR/manifest.tmp"
 
 # Determine output filename

@@ -131,6 +131,7 @@ jobs:
           ls -lh "${FPK_FINAL}"
         env:
           VERSION: ${{ needs.check-version.outputs.version }}
+          FPK_VERSION: ${{ needs.check-version.outputs.fpk_version }}
           FULL_VERSION: ${{ needs.check-version.outputs.full_version }}
           UPSTREAM_TAG: ${{ needs.check-version.outputs.upstream_tag }}
           DEB_ARCH: ${{ matrix.deb_arch }}
