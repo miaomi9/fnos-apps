@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-03-03T13:37:10Z",
+  "generated_at": "2026-03-03T13:38:41Z",
   "source": {
     "name": "conversun/fnos-apps",
     "url": "https://github.com/conversun/fnos-apps"
@@ -131,6 +131,27 @@
       "download_count": 18,
       "app_type": "native",
       "category": "system"
+    },
+    {
+      "slug": "chinesesubfinder",
+      "appname": "chinesesubfinder",
+      "file_prefix": "chinesesubfinder",
+      "display_name": "ChineseSubFinder",
+      "description": "中文字幕自动下载工具，支持 Emby/Jellyfin/Plex",
+      "version": "0.55.2",
+      "fpk_version": "0.55.2",
+      "release_tag": "chinesesubfinder/v0.55.2",
+      "service_port": 19035,
+      "homepage_url": "https://github.com/ChineseSubFinder/ChineseSubFinder",
+      "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/chinesesubfinder/fnos/ICON_256.PNG",
+      "platforms": [
+        "x86",
+        "arm"
+      ],
+      "updated_at": "2026-03-03T13:38:30Z",
+      "download_count": 0,
+      "app_type": "native",
+      "category": "content"
     },
     {
       "slug": "chromium",
@@ -406,6 +427,27 @@
       "category": "media"
     },
     {
+      "slug": "lucky",
+      "appname": "lucky",
+      "file_prefix": "lucky",
+      "display_name": "Lucky",
+      "description": "网络工具箱，集成 DDNS、反向代理、HTTPS 证书、端口转发等功能",
+      "version": "2.27.2",
+      "fpk_version": "2.27.2",
+      "release_tag": "lucky/v2.27.2",
+      "service_port": 16601,
+      "homepage_url": "https://lucky666.cn",
+      "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/lucky/fnos/ICON_256.PNG",
+      "platforms": [
+        "x86",
+        "arm"
+      ],
+      "updated_at": "2026-03-03T13:38:29Z",
+      "download_count": 0,
+      "app_type": "native",
+      "category": "system"
+    },
+    {
       "slug": "memos",
       "appname": "memos",
       "file_prefix": "memos",
@@ -427,6 +469,27 @@
       "category": "content"
     },
     {
+      "slug": "mosdns",
+      "appname": "mosdns",
+      "file_prefix": "mosdns",
+      "display_name": "MosDNS",
+      "description": "DNS 分流工具，国内域名走国内 DNS、国外走加密 DNS",
+      "version": "5.3.4",
+      "fpk_version": "5.3.4",
+      "release_tag": "mosdns/v5.3.4",
+      "service_port": 5353,
+      "homepage_url": "https://github.com/IrineSistworking/mosdns",
+      "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/mosdns/fnos/ICON_256.PNG",
+      "platforms": [
+        "x86",
+        "arm"
+      ],
+      "updated_at": "0001-01-01T00:00:00Z",
+      "download_count": 0,
+      "app_type": "native",
+      "category": "system"
+    },
+    {
       "slug": "moviepilot",
       "appname": "moviepilot",
       "file_prefix": "moviepilot",
@@ -443,7 +506,7 @@
         "arm"
       ],
       "updated_at": "2026-03-03T08:18:37Z",
-      "download_count": 195,
+      "download_count": 236,
       "app_type": "docker",
       "category": "content",
       "post_install_note": "请在 Web UI 中设置媒体库和下载目录，确保与下载工具（如 qBittorrent）使用的路径一致。"
@@ -636,6 +699,27 @@
       "download_count": 2,
       "app_type": "docker",
       "category": "content"
+    },
+    {
+      "slug": "smartdns",
+      "appname": "smartdns",
+      "file_prefix": "smartdns",
+      "display_name": "SmartDNS",
+      "description": "本地 DNS 加速与优选工具，多 DNS 查询并返回最快结果",
+      "version": "1.2025.11.09-1443",
+      "fpk_version": "1.2025.11.09-1443",
+      "release_tag": "smartdns/v1.2025.11.09-1443",
+      "service_port": 6580,
+      "homepage_url": "https://github.com/pymumu/smartdns",
+      "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/smartdns/fnos/ICON_256.PNG",
+      "platforms": [
+        "x86",
+        "arm"
+      ],
+      "updated_at": "2026-03-03T13:38:37Z",
+      "download_count": 0,
+      "app_type": "native",
+      "category": "system"
     },
     {
       "slug": "sun-panel",
