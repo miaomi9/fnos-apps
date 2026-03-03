@@ -65,11 +65,16 @@ jobs:
           echo "file_prefix=${FILE_PREFIX}" >> "$GITHUB_OUTPUT"
           echo "release_title=${RELEASE_TITLE}" >> "$GITHUB_OUTPUT"
 
-          # Architecture matrix: default both, apps can override via SUPPORTED_ARCH
           SUPPORTED_ARCH="${SUPPORTED_ARCH:-x86 arm}"
-          ARCH_JSON=$(echo "$SUPPORTED_ARCH" | tr ' ' '\n' | jq -R -s -c 'split("\n") | map(select(. != ""))')
-          echo "arch_matrix=${ARCH_JSON}" >> "$GITHUB_OUTPUT"
-          echo "Architectures: ${ARCH_JSON}"
+          ARCH_MATRIX="[]"
+          if echo "$SUPPORTED_ARCH" | grep -qw "x86"; then
+            ARCH_MATRIX=$(echo "$ARCH_MATRIX" | jq -c '. + [{"arch":"x86","manifest_platform":"x86","deb_arch":"amd64","plex_build":"linux-x86_64","qb_binary_prefix":"x86_64","tarball_arch":"amd64","jre_arch":"x64"}]')
+          fi
+          if echo "$SUPPORTED_ARCH" | grep -qw "arm"; then
+            ARCH_MATRIX=$(echo "$ARCH_MATRIX" | jq -c '. + [{"arch":"arm","manifest_platform":"arm","deb_arch":"arm64","plex_build":"linux-aarch64","qb_binary_prefix":"aarch64","tarball_arch":"arm64","jre_arch":"aarch64"}]')
+          fi
+          echo "arch_matrix=${ARCH_MATRIX}" >> "$GITHUB_OUTPUT"
+          echo "Architectures: ${ARCH_MATRIX}"
 
       - name: Get Latest Version
         id: version
@@ -96,22 +101,7 @@ jobs:
     strategy:
       fail-fast: true
       matrix:
-        arch: ${{ fromJson(needs.check-version.outputs.arch_matrix) }}
-        include:
-          - arch: x86
-            manifest_platform: x86
-            deb_arch: amd64
-            plex_build: linux-x86_64
-            qb_binary_prefix: x86_64
-            tarball_arch: amd64
-            jre_arch: x64
-          - arch: arm
-            manifest_platform: arm
-            deb_arch: arm64
-            plex_build: linux-aarch64
-            qb_binary_prefix: aarch64
-            tarball_arch: arm64
-            jre_arch: aarch64
+        include: ${{ fromJson(needs.check-version.outputs.arch_matrix) }}
 
     steps:
       - name: Checkout
