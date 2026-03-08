@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-03-08T08:03:54Z",
+  "generated_at": "2026-03-08T08:04:03Z",
   "source": {
     "name": "conversun/fnos-apps",
     "url": "https://github.com/conversun/fnos-apps"
@@ -318,7 +318,7 @@
         "arm"
       ],
       "updated_at": "2026-03-03T19:22:34Z",
-      "download_count": 0,
+      "download_count": 7,
       "app_type": "docker",
       "category": "system"
     },
@@ -360,7 +360,7 @@
         "arm"
       ],
       "updated_at": "2026-03-03T19:22:08Z",
-      "download_count": 8,
+      "download_count": 0,
       "app_type": "docker",
       "category": "system",
       "post_install_note": "首次启动会初始化 PostgreSQL 和 MinIO，请耐心等待。"
@@ -477,8 +477,8 @@
       "display_name": "Gitea",
       "description": "轻量级 Git 代码托管服务器，提供代码仓库、Issue 追踪和 CI/CD。",
       "version": "1.25.4",
-      "fpk_version": "1.25.4-r2",
-      "release_tag": "gitea/v1.25.4-r2",
+      "fpk_version": "1.25.4",
+      "release_tag": "gitea/v1.25.4",
       "service_port": 3003,
       "homepage_url": "https://gitea.com",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/gitea/fnos/ICON_256.PNG",
@@ -486,7 +486,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-03T19:23:07Z",
+      "updated_at": "2026-03-08T08:04:01Z",
       "download_count": 17,
       "app_type": "native",
       "category": "system"
@@ -582,8 +582,8 @@
       "display_name": "Headscale",
       "description": "Tailscale 自托管控制服务器，构建私有 VPN 网络。",
       "version": "0.28.0",
-      "fpk_version": "0.28.0-r2",
-      "release_tag": "headscale/v0.28.0-r2",
+      "fpk_version": "0.28.0",
+      "release_tag": "headscale/v0.28.0",
       "service_port": 8480,
       "homepage_url": "https://github.com/juanfont/headscale",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/headscale/fnos/ICON_256.PNG",
@@ -591,8 +591,8 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-03T19:22:17Z",
-      "download_count": 12,
+      "updated_at": "2026-03-08T08:03:59Z",
+      "download_count": 0,
       "app_type": "native",
       "category": "system"
     },
@@ -771,8 +771,8 @@
       "display_name": "Kavita",
       "description": "开源的漫画、轻小说和电子书阅读服务器",
       "version": "0.8.9",
-      "fpk_version": "0.8.9-r6",
-      "release_tag": "kavita/v0.8.9-r6",
+      "fpk_version": "0.8.9",
+      "release_tag": "kavita/v0.8.9",
       "service_port": 5000,
       "homepage_url": "https://github.com/Kareadita/Kavita",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/kavita/fnos/ICON_256.PNG",
@@ -780,8 +780,8 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-03T19:21:59Z",
-      "download_count": 36,
+      "updated_at": "2026-03-08T08:03:55Z",
+      "download_count": 0,
       "app_type": "docker",
       "category": "media"
     },
@@ -898,8 +898,8 @@
       "display_name": "LocalAI",
       "description": "本地 AI 模型推理服务器，兼容 OpenAI API 接口。",
       "version": "3.12.1",
-      "fpk_version": "3.12.1-r1",
-      "release_tag": "localai/v3.12.1-r1",
+      "fpk_version": "3.12.1",
+      "release_tag": "localai/v3.12.1",
       "service_port": 8180,
       "homepage_url": "https://localai.io",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/localai/fnos/ICON_256.PNG",
@@ -907,8 +907,8 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-03T19:22:38Z",
-      "download_count": 8,
+      "updated_at": "2026-03-08T08:03:56Z",
+      "download_count": 0,
       "app_type": "docker",
       "category": "system"
     },
@@ -1025,8 +1025,8 @@
       "display_name": "Miniflux",
       "description": "极简 RSS 阅读器，Go 编写，性能优异",
       "version": "2.2.17",
-      "fpk_version": "2.2.17-r1",
-      "release_tag": "miniflux/v2.2.17-r1",
+      "fpk_version": "2.2.17",
+      "release_tag": "miniflux/v2.2.17",
       "service_port": 8190,
       "homepage_url": "https://miniflux.app",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/miniflux/fnos/ICON_256.PNG",
@@ -1034,7 +1034,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-03T19:22:12Z",
+      "updated_at": "2026-03-08T08:03:56Z",
       "download_count": 0,
       "app_type": "docker",
       "category": "content"
@@ -1531,8 +1531,8 @@
       "display_name": "Seerr",
       "description": "影视媒体请求管理工具，支持 Plex/Jellyfin/Emby，Overseerr 的社区分支。",
       "version": "3.1.0",
-      "fpk_version": "3.1.0-r1",
-      "release_tag": "seerr/v3.1.0-r1",
+      "fpk_version": "3.1.0",
+      "release_tag": "seerr/v3.1.0",
       "service_port": 5055,
       "homepage_url": "https://github.com/seerr-team/seerr",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/seerr/fnos/ICON_256.PNG",
@@ -1540,8 +1540,8 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-03T19:22:31Z",
-      "download_count": 29,
+      "updated_at": "2026-03-08T08:03:59Z",
+      "download_count": 0,
       "app_type": "docker",
       "category": "media"
     },
@@ -1762,8 +1762,8 @@
       "display_name": "Vaultwarden",
       "description": "轻量级 Bitwarden 兼容密码管理服务器，使用 Rust 编写，支持自托管密码管理。",
       "version": "1.35.4",
-      "fpk_version": "1.35.4-r4",
-      "release_tag": "vaultwarden/v1.35.4-r4",
+      "fpk_version": "1.35.4",
+      "release_tag": "vaultwarden/v1.35.4",
       "service_port": 8880,
       "homepage_url": "https://github.com/dani-garcia/vaultwarden",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/vaultwarden/fnos/ICON_256.PNG",
@@ -1771,8 +1771,8 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-03T19:21:23Z",
-      "download_count": 25,
+      "updated_at": "2026-03-08T08:03:59Z",
+      "download_count": 6,
       "app_type": "docker",
       "category": "system"
     },
