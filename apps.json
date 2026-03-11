@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-03-11T06:53:16Z",
+  "generated_at": "2026-03-11T08:08:09Z",
   "source": {
     "name": "conversun/fnos-apps",
     "url": "https://github.com/conversun/fnos-apps"
@@ -129,7 +129,7 @@
         "arm"
       ],
       "updated_at": "2026-03-11T06:52:24Z",
-      "download_count": 3,
+      "download_count": 4,
       "app_type": "docker",
       "category": "content"
     },
@@ -192,7 +192,7 @@
         "arm"
       ],
       "updated_at": "2026-03-03T13:37:00Z",
-      "download_count": 37,
+      "download_count": 38,
       "app_type": "native",
       "category": "system"
     },
@@ -318,7 +318,7 @@
         "arm"
       ],
       "updated_at": "2026-03-11T06:52:04Z",
-      "download_count": 4,
+      "download_count": 6,
       "app_type": "docker",
       "category": "content"
     },
@@ -487,7 +487,7 @@
         "arm"
       ],
       "updated_at": "2026-03-08T08:03:44Z",
-      "download_count": 536,
+      "download_count": 542,
       "app_type": "native",
       "category": "store"
     },
@@ -729,8 +729,8 @@
       "display_name": "Homepage",
       "description": "高度可定制的应用仪表盘，支持 100+ 服务集成",
       "version": "1.10.1",
-      "fpk_version": "1.10.1-r1",
-      "release_tag": "homepage/v1.10.1-r1",
+      "fpk_version": "1.10.1",
+      "release_tag": "homepage/v1.10.1",
       "service_port": 3003,
       "homepage_url": "https://gethomepage.dev",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/homepage/fnos/ICON_256.PNG",
@@ -738,7 +738,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T06:51:48Z",
+      "updated_at": "2026-03-11T08:07:55Z",
       "download_count": 7,
       "app_type": "docker",
       "category": "system"
@@ -981,8 +981,8 @@
       "display_name": "LibreChat",
       "description": "AI 聊天界面，支持 OpenAI、Anthropic 等多种 AI 模型。",
       "version": "null",
-      "fpk_version": "null-r1",
-      "release_tag": "librechat/vnull-r1",
+      "fpk_version": "null",
+      "release_tag": "librechat/vnull",
       "service_port": 3080,
       "homepage_url": "https://librechat.ai",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/librechat/fnos/ICON_256.PNG",
@@ -990,7 +990,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T06:51:54Z",
+      "updated_at": "2026-03-11T08:07:54Z",
       "download_count": 21,
       "app_type": "docker",
       "category": "system",
@@ -1457,7 +1457,7 @@
         "arm"
       ],
       "updated_at": "2026-03-11T06:52:20Z",
-      "download_count": 0,
+      "download_count": 2,
       "app_type": "docker",
       "category": "system"
     },
@@ -1562,7 +1562,7 @@
         "arm"
       ],
       "updated_at": "2026-03-09T08:11:09Z",
-      "download_count": 478,
+      "download_count": 500,
       "app_type": "native",
       "category": "system"
     },
@@ -1646,7 +1646,7 @@
         "arm"
       ],
       "updated_at": "2026-03-11T06:52:31Z",
-      "download_count": 12,
+      "download_count": 14,
       "app_type": "docker",
       "category": "system"
     },
@@ -2035,8 +2035,8 @@
       "display_name": "Tailscale",
       "description": "Tailscale VPN 客户端，零配置组建安全私有网络，支持远程访问 NAS。",
       "version": "1.94.2",
-      "fpk_version": "1.94.2-r1",
-      "release_tag": "tailscale/v1.94.2-r1",
+      "fpk_version": "1.94.2",
+      "release_tag": "tailscale/v1.94.2",
       "service_port": 8088,
       "homepage_url": "https://github.com/tailscale/tailscale",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/tailscale/fnos/ICON_256.PNG",
@@ -2044,7 +2044,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T06:52:04Z",
+      "updated_at": "2026-03-11T08:08:02Z",
       "download_count": 10,
       "app_type": "docker",
       "category": "system"
