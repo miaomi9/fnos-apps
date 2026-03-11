@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-03-11T08:09:03Z",
+  "generated_at": "2026-03-11T08:09:15Z",
   "source": {
     "name": "conversun/fnos-apps",
     "url": "https://github.com/conversun/fnos-apps"
@@ -13,8 +13,8 @@
       "display_name": "Actual Budget",
       "description": "本地优先的个人记账与预算管理工具",
       "version": "26.3.0",
-      "fpk_version": "26.3.0-r1",
-      "release_tag": "actual-budget/v26.3.0-r1",
+      "fpk_version": "26.3.0",
+      "release_tag": "actual-budget/v26.3.0",
       "service_port": 5006,
       "homepage_url": "https://actualbudget.org",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/actual-budget/fnos/ICON_256.PNG",
@@ -22,7 +22,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T06:51:51Z",
+      "updated_at": "2026-03-11T08:09:12Z",
       "download_count": 15,
       "app_type": "docker",
       "category": "system"
@@ -245,8 +245,8 @@
       "display_name": "Chromium",
       "description": "Chromium 浏览器的 Docker 容器版本，通过网页即可远程访问，内置中文字体支持。",
       "version": "26.02.4",
-      "fpk_version": "26.02.4-r1",
-      "release_tag": "chromium/v26.02.4-r1",
+      "fpk_version": "26.02.4",
+      "release_tag": "chromium/v26.02.4",
       "service_port": 5802,
       "homepage_url": "https://github.com/jlesage/docker-chromium",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/chromium/fnos/ICON_256.PNG",
@@ -254,7 +254,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T06:51:24Z",
+      "updated_at": "2026-03-11T08:09:08Z",
       "download_count": 31,
       "app_type": "docker",
       "category": "browser"
@@ -771,8 +771,8 @@
       "display_name": "IT-Tools",
       "description": "开发者工具箱，提供 JSON/YAML 转换、编码解码等常用工具。",
       "version": "2024.10.22-7ca5933",
-      "fpk_version": "2024.10.22-7ca5933-r1",
-      "release_tag": "it-tools/v2024.10.22-7ca5933-r1",
+      "fpk_version": "2024.10.22-7ca5933",
+      "release_tag": "it-tools/v2024.10.22-7ca5933",
       "service_port": 8280,
       "homepage_url": "https://it-tools.tech",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/it-tools/fnos/ICON_256.PNG",
@@ -780,7 +780,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T06:52:18Z",
+      "updated_at": "2026-03-11T08:09:05Z",
       "download_count": 5,
       "app_type": "docker",
       "category": "system"
@@ -791,9 +791,9 @@
       "file_prefix": "jackett",
       "display_name": "Jackett",
       "description": "Torrent 索引器代理，为 Sonarr/Radarr 等工具提供统一的搜索接口。",
-      "version": "0.24.1332",
-      "fpk_version": "0.24.1332",
-      "release_tag": "jackett/v0.24.1332",
+      "version": "0.24.1341",
+      "fpk_version": "0.24.1341",
+      "release_tag": "jackett/v0.24.1341",
       "service_port": 9117,
       "homepage_url": "https://github.com/Jackett/Jackett",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/jackett/fnos/ICON_256.PNG",
@@ -801,7 +801,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-10T08:07:04Z",
+      "updated_at": "2026-03-11T08:09:04Z",
       "download_count": 17,
       "app_type": "native",
       "category": "media"
@@ -876,8 +876,8 @@
       "display_name": "Kavita",
       "description": "开源的漫画、轻小说和电子书阅读服务器",
       "version": "0.8.9",
-      "fpk_version": "0.8.9-r1",
-      "release_tag": "kavita/v0.8.9-r1",
+      "fpk_version": "0.8.9",
+      "release_tag": "kavita/v0.8.9",
       "service_port": 5000,
       "homepage_url": "https://github.com/Kareadita/Kavita",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/kavita/fnos/ICON_256.PNG",
@@ -885,7 +885,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T06:52:20Z",
+      "updated_at": "2026-03-11T08:09:11Z",
       "download_count": 12,
       "app_type": "docker",
       "category": "media"
@@ -939,8 +939,8 @@
       "display_name": "Komga",
       "description": "漫画和电子书管理服务器，支持 CBZ/CBR/PDF/EPUB 格式在线阅读。",
       "version": "1.24.1",
-      "fpk_version": "1.24.1-r1",
-      "release_tag": "komga/v1.24.1-r1",
+      "fpk_version": "1.24.1",
+      "release_tag": "komga/v1.24.1",
       "service_port": 25600,
       "homepage_url": "https://github.com/gotson/komga",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/komga/fnos/ICON_256.PNG",
@@ -948,7 +948,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T06:52:22Z",
+      "updated_at": "2026-03-11T08:09:13Z",
       "download_count": 4,
       "app_type": "docker",
       "category": "media"
@@ -1172,8 +1172,8 @@
       "display_name": "MelodyHub",
       "description": "Web 音乐搜索与下载服务，基于 lx-music 核心，支持多平台音源聚合搜索、服务器端下载和歌曲管理。",
       "version": "1.1.0",
-      "fpk_version": "1.1.0-r1",
-      "release_tag": "melody-hub/v1.1.0-r1",
+      "fpk_version": "1.1.0",
+      "release_tag": "melody-hub/v1.1.0",
       "service_port": 3006,
       "homepage_url": "https://github.com/gefl24/melody-hub",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/melody-hub/fnos/ICON_256.PNG",
@@ -1181,7 +1181,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T06:51:56Z",
+      "updated_at": "2026-03-11T08:09:06Z",
       "download_count": 156,
       "app_type": "docker",
       "category": "media"
@@ -1255,9 +1255,9 @@
       "file_prefix": "moviepilot",
       "display_name": "MoviePilot",
       "description": "影视自动化管理工具,支持自动订阅、下载、整理和通知。首次启动通过 Web UI 配置。",
-      "version": "2.9.13",
-      "fpk_version": "2.9.13-r1",
-      "release_tag": "moviepilot/v2.9.13-r1",
+      "version": "2.9.14",
+      "fpk_version": "2.9.14",
+      "release_tag": "moviepilot/v2.9.14",
       "service_port": 3000,
       "homepage_url": "https://github.com/jxxghp/MoviePilot",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/moviepilot/fnos/ICON_256.PNG",
@@ -1265,7 +1265,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T06:52:33Z",
+      "updated_at": "2026-03-11T08:09:04Z",
       "download_count": 133,
       "app_type": "docker",
       "category": "content",
@@ -1594,8 +1594,8 @@
       "display_name": "Paperless-ngx",
       "description": "文档 OCR 扫描与归档管理系统，将纸质文件数字化并智能分类",
       "version": "2.20.10",
-      "fpk_version": "2.20.10-r1",
-      "release_tag": "paperless-ngx/v2.20.10-r1",
+      "fpk_version": "2.20.10",
+      "release_tag": "paperless-ngx/v2.20.10",
       "service_port": 8000,
       "homepage_url": "https://docs.paperless-ngx.com",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/paperless-ngx/fnos/ICON_256.PNG",
@@ -1603,7 +1603,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T06:52:10Z",
+      "updated_at": "2026-03-11T08:09:11Z",
       "download_count": 25,
       "app_type": "docker",
       "category": "system"
@@ -2203,8 +2203,8 @@
       "display_name": "Wizarr",
       "description": "Plex/Jellyfin 用户邀请管理工具，简化媒体库共享流程。",
       "version": "2026.2.1",
-      "fpk_version": "2026.2.1-r1",
-      "release_tag": "wizarr/v2026.2.1-r1",
+      "fpk_version": "2026.2.1",
+      "release_tag": "wizarr/v2026.2.1",
       "service_port": 5690,
       "homepage_url": "https://github.com/wizarrrr/wizarr",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/wizarr/fnos/ICON_256.PNG",
@@ -2212,7 +2212,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T06:52:18Z",
+      "updated_at": "2026-03-11T08:09:08Z",
       "download_count": 4,
       "app_type": "docker",
       "category": "media"
