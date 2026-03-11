@@ -1,0 +1,25 @@
+{
+    "port-config": {
+        "protocol-file": "MaxKB.sc"
+    },
+    "data-share": {
+        "shares": [
+            {
+                "name": "MaxKB",
+                "permission": {
+                    "rw": [
+                        "maxkb"
+                    ]
+                }
+            }
+        ]
+    },
+    "docker-project": {
+        "projects": [
+            {
+                "name": "maxkb",
+                "path": "docker"
+            }
+        ]
+    }
+}

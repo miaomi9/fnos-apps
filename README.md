@@ -1,7 +1,7 @@
 # fnOS Apps
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-![Apps](https://img.shields.io/badge/apps-113-2ea44f)
+![Apps](https://img.shields.io/badge/apps-114-2ea44f)
 ![Platform](https://img.shields.io/badge/fnOS-third--party-orange)
 
 面向飞牛 fnOS 的第三方应用打包仓库。自动跟踪上游版本，构建可直接安装的 `.fpk` 包。
@@ -143,6 +143,7 @@
 | <img src="apps/librechat/fnos/ICON.PNG" width="28"> | **LibreChat** | `3080` | AI 聊天界面，支持多模型 | [官网](https://librechat.ai) | [Release][r-librechat] |
 | <img src="apps/open-webui/fnos/ICON.PNG" width="28"> | **Open WebUI** | `8080` | AI 聊天界面，支持多模型对话 | [GitHub](https://github.com/open-webui/open-webui) | [Release][r-openwebui] |
 | <img src="apps/ollama/fnos/ICON.PNG" width="28"> | **Ollama** | `11434` | 本地大语言模型运行引擎 | [官网](https://ollama.com) | [Release][r-ollama] |
+| <img src="apps/maxkb/fnos/ICON.PNG" width="28"> | **MaxKB** | `8083` | AI 知识库问答系统，支持 RAG 和多模型对接 | [GitHub](https://github.com/1Panel-dev/MaxKB) | [Release][r-maxkb] |
 
 ### 🌐 网络工具
 
@@ -342,4 +343,5 @@ fnos-apps/
 [r-clamav]: https://github.com/conversun/fnos-apps/releases?q=clamav
 [r-openwebui]: https://github.com/conversun/fnos-apps/releases?q=open-webui
 [r-ollama]: https://github.com/conversun/fnos-apps/releases?q=ollama
+[r-maxkb]: https://github.com/conversun/fnos-apps/releases?q=maxkb
 [r-tailscale]: https://github.com/conversun/fnos-apps/releases?q=tailscale
