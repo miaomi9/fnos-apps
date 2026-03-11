@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-03-11T17:45:08Z",
+  "generated_at": "2026-03-11T17:45:17Z",
   "source": {
     "name": "conversun/fnos-apps",
     "url": "https://github.com/conversun/fnos-apps"
@@ -97,8 +97,8 @@
       "display_name": "AppFlowy",
       "description": "开源 Notion 替代品，支持自托管的协作文档平台。",
       "version": "0.9.64",
-      "fpk_version": "0.9.64-r1",
-      "release_tag": "appflowy/v0.9.64-r1",
+      "fpk_version": "0.9.64",
+      "release_tag": "appflowy/v0.9.64",
       "service_port": 8500,
       "homepage_url": "https://appflowy.io",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/appflowy/fnos/ICON_256.PNG",
@@ -106,7 +106,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:37:56Z",
+      "updated_at": "2026-03-11T17:45:09Z",
       "download_count": 25,
       "app_type": "docker",
       "category": "system",
@@ -392,8 +392,8 @@
       "display_name": "Duplicati",
       "description": "加密备份工具，支持增量备份到云存储和本地。",
       "version": "2.2.0.3_stable_2026-01-06",
-      "fpk_version": "2.2.0.3_stable_2026-01-06-r1",
-      "release_tag": "duplicati/v2.2.0.3_stable_2026-01-06-r1",
+      "fpk_version": "2.2.0.3_stable_2026-01-06",
+      "release_tag": "duplicati/v2.2.0.3_stable_2026-01-06",
       "service_port": 8200,
       "homepage_url": "https://duplicati.com",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/duplicati/fnos/ICON_256.PNG",
@@ -401,7 +401,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:38:15Z",
+      "updated_at": "2026-03-11T17:45:11Z",
       "download_count": 28,
       "app_type": "docker",
       "category": "system"
@@ -1002,8 +1002,8 @@
       "display_name": "Komga",
       "description": "漫画和电子书管理服务器，支持 CBZ/CBR/PDF/EPUB 格式在线阅读。",
       "version": "1.24.1",
-      "fpk_version": "1.24.1-r1",
-      "release_tag": "komga/v1.24.1-r1",
+      "fpk_version": "1.24.1",
+      "release_tag": "komga/v1.24.1",
       "service_port": 25600,
       "homepage_url": "https://github.com/gotson/komga",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/komga/fnos/ICON_256.PNG",
@@ -1011,7 +1011,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:37:29Z",
+      "updated_at": "2026-03-11T17:45:07Z",
       "download_count": 4,
       "app_type": "docker",
       "category": "media"
@@ -1510,8 +1510,8 @@
       "display_name": "Node-RED",
       "description": "可视化流程编排工具，支持 IoT 和智能家居自动化。",
       "version": "4.1.7",
-      "fpk_version": "4.1.7-r1",
-      "release_tag": "node-red/v4.1.7-r1",
+      "fpk_version": "4.1.7",
+      "release_tag": "node-red/v4.1.7",
       "service_port": 1880,
       "homepage_url": "https://github.com/node-red/node-red",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/node-red/fnos/ICON_256.PNG",
@@ -1519,7 +1519,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:38:25Z",
+      "updated_at": "2026-03-11T17:45:15Z",
       "download_count": 4,
       "app_type": "docker",
       "category": "system"
@@ -2077,8 +2077,8 @@
       "display_name": "Sunshine",
       "description": "游戏串流服务器，配合 Moonlight 客户端实现远程游戏。",
       "version": "null",
-      "fpk_version": "null-r1",
-      "release_tag": "sunshine/vnull-r1",
+      "fpk_version": "null",
+      "release_tag": "sunshine/vnull",
       "service_port": 47990,
       "homepage_url": "https://docs.lizardbyte.dev/projects/sunshine/",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/sunshine/fnos/ICON_256.PNG",
@@ -2086,7 +2086,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:38:16Z",
+      "updated_at": "2026-03-11T17:45:14Z",
       "download_count": 15,
       "app_type": "docker",
       "category": "system"
@@ -2224,8 +2224,8 @@
       "display_name": "Uptime Kuma",
       "description": "简洁美观的服务监控工具，支持多种监控类型和告警通知",
       "version": "2.2.1",
-      "fpk_version": "2.2.1-r1",
-      "release_tag": "uptime-kuma/v2.2.1-r1",
+      "fpk_version": "2.2.1",
+      "release_tag": "uptime-kuma/v2.2.1",
       "service_port": 3001,
       "homepage_url": "https://github.com/louislam/uptime-kuma",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/uptime-kuma/fnos/ICON_256.PNG",
@@ -2233,7 +2233,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:37:27Z",
+      "updated_at": "2026-03-11T17:45:15Z",
       "download_count": 46,
       "app_type": "docker",
       "category": "system"
@@ -2266,8 +2266,8 @@
       "display_name": "WG-Easy",
       "description": "WireGuard VPN 管理界面，提供简洁的 Web UI 管理 VPN 连接。",
       "version": "15.2.2",
-      "fpk_version": "15.2.2-r1",
-      "release_tag": "wg-easy/v15.2.2-r1",
+      "fpk_version": "15.2.2",
+      "release_tag": "wg-easy/v15.2.2",
       "service_port": 51821,
       "homepage_url": "https://github.com/wg-easy/wg-easy",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/wg-easy/fnos/ICON_256.PNG",
@@ -2275,7 +2275,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:37:26Z",
+      "updated_at": "2026-03-11T17:45:12Z",
       "download_count": 13,
       "app_type": "docker",
       "category": "system"
@@ -2287,8 +2287,8 @@
       "display_name": "Wiki.js",
       "description": "强大的自托管知识库/Wiki 系统，支持 Markdown 和多种编辑器",
       "version": "2.5.277",
-      "fpk_version": "2.5.277-r1",
-      "release_tag": "wikijs/v2.5.277-r1",
+      "fpk_version": "2.5.277",
+      "release_tag": "wikijs/v2.5.277",
       "service_port": 3100,
       "homepage_url": "https://js.wiki",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/wikijs/fnos/ICON_256.PNG",
@@ -2296,7 +2296,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:38:20Z",
+      "updated_at": "2026-03-11T17:45:16Z",
       "download_count": 13,
       "app_type": "docker",
       "category": "content"
