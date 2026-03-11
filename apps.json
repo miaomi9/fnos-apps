@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-03-11T17:38:03Z",
+  "generated_at": "2026-03-11T17:38:15Z",
   "source": {
     "name": "conversun/fnos-apps",
     "url": "https://github.com/conversun/fnos-apps"
@@ -161,8 +161,8 @@
       "display_name": "Bazarr",
       "description": "字幕自动化管理工具，与 Sonarr/Radarr 集成自动下载匹配字幕",
       "version": "1.5.6",
-      "fpk_version": "1.5.6",
-      "release_tag": "bazarr/v1.5.6",
+      "fpk_version": "1.5.6-r1",
+      "release_tag": "bazarr/v1.5.6-r1",
       "service_port": 6767,
       "homepage_url": "https://www.bazarr.media",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/bazarr/fnos/ICON_256.PNG",
@@ -170,7 +170,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T08:08:16Z",
+      "updated_at": "2026-03-11T17:38:01Z",
       "download_count": 12,
       "app_type": "docker",
       "category": "content"
@@ -1405,8 +1405,8 @@
       "display_name": "Netdata",
       "description": "实时系统监控面板，每秒采集 CPU/内存/磁盘/网络等指标。",
       "version": "2.9.0",
-      "fpk_version": "2.9.0",
-      "release_tag": "netdata/v2.9.0",
+      "fpk_version": "2.9.0-r1",
+      "release_tag": "netdata/v2.9.0-r1",
       "service_port": 19999,
       "homepage_url": "https://github.com/netdata/netdata",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/netdata/fnos/ICON_256.PNG",
@@ -1414,7 +1414,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T08:08:26Z",
+      "updated_at": "2026-03-11T17:38:05Z",
       "download_count": 32,
       "app_type": "docker",
       "category": "system"
@@ -1552,8 +1552,8 @@
       "display_name": "Ollama",
       "description": "本地大语言模型运行引擎，支持 Llama、Mistral、Gemma 等开源模型。",
       "version": "0.17.7",
-      "fpk_version": "0.17.7",
-      "release_tag": "ollama/v0.17.7",
+      "fpk_version": "0.17.7-r1",
+      "release_tag": "ollama/v0.17.7-r1",
       "service_port": 11434,
       "homepage_url": "https://github.com/ollama/ollama",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/ollama/fnos/ICON_256.PNG",
@@ -1561,7 +1561,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T08:08:25Z",
+      "updated_at": "2026-03-11T17:38:08Z",
       "download_count": 21,
       "app_type": "docker",
       "category": "ai"
@@ -1657,8 +1657,8 @@
       "display_name": "Paperless-ngx",
       "description": "文档 OCR 扫描与归档管理系统，将纸质文件数字化并智能分类",
       "version": "2.20.10",
-      "fpk_version": "2.20.10-r1",
-      "release_tag": "paperless-ngx/v2.20.10-r1",
+      "fpk_version": "2.20.10-r2",
+      "release_tag": "paperless-ngx/v2.20.10-r2",
       "service_port": 8000,
       "homepage_url": "https://docs.paperless-ngx.com",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/paperless-ngx/fnos/ICON_256.PNG",
@@ -1666,7 +1666,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T08:38:43Z",
+      "updated_at": "2026-03-11T17:38:13Z",
       "download_count": 25,
       "app_type": "docker",
       "category": "system"
@@ -2140,8 +2140,8 @@
       "display_name": "Tailscale",
       "description": "Tailscale VPN 客户端，零配置组建安全私有网络，支持远程访问 NAS。",
       "version": "1.94.2",
-      "fpk_version": "1.94.2",
-      "release_tag": "tailscale/v1.94.2",
+      "fpk_version": "1.94.2-r1",
+      "release_tag": "tailscale/v1.94.2-r1",
       "service_port": 8088,
       "homepage_url": "https://github.com/tailscale/tailscale",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/tailscale/fnos/ICON_256.PNG",
@@ -2149,7 +2149,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T08:08:02Z",
+      "updated_at": "2026-03-11T17:38:07Z",
       "download_count": 10,
       "app_type": "docker",
       "category": "system"
@@ -2245,8 +2245,8 @@
       "display_name": "Vaultwarden",
       "description": "轻量级 Bitwarden 兼容密码管理服务器，使用 Rust 编写，支持自托管密码管理。",
       "version": "1.35.4",
-      "fpk_version": "1.35.4",
-      "release_tag": "vaultwarden/v1.35.4",
+      "fpk_version": "1.35.4-r1",
+      "release_tag": "vaultwarden/v1.35.4-r1",
       "service_port": 8880,
       "homepage_url": "https://github.com/dani-garcia/vaultwarden",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/vaultwarden/fnos/ICON_256.PNG",
@@ -2254,7 +2254,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T08:08:44Z",
+      "updated_at": "2026-03-11T17:38:10Z",
       "download_count": 24,
       "app_type": "docker",
       "category": "system"
