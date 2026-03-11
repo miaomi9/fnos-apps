@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-03-11T08:08:33Z",
+  "generated_at": "2026-03-11T08:08:42Z",
   "source": {
     "name": "conversun/fnos-apps",
     "url": "https://github.com/conversun/fnos-apps"
@@ -371,8 +371,8 @@
       "display_name": "Duplicati",
       "description": "加密备份工具，支持增量备份到云存储和本地。",
       "version": "2.2.0.3_stable_2026-01-06",
-      "fpk_version": "2.2.0.3_stable_2026-01-06-r1",
-      "release_tag": "duplicati/v2.2.0.3_stable_2026-01-06-r1",
+      "fpk_version": "2.2.0.3_stable_2026-01-06",
+      "release_tag": "duplicati/v2.2.0.3_stable_2026-01-06",
       "service_port": 8200,
       "homepage_url": "https://duplicati.com",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/duplicati/fnos/ICON_256.PNG",
@@ -380,7 +380,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T06:52:39Z",
+      "updated_at": "2026-03-11T08:08:33Z",
       "download_count": 28,
       "app_type": "docker",
       "category": "system"
@@ -456,8 +456,8 @@
       "display_name": "Firefox",
       "description": "Firefox 浏览器的 Docker 容器版本，通过网页即可远程访问，内置中文字体支持。",
       "version": "26.02.3",
-      "fpk_version": "26.02.3-r1",
-      "release_tag": "firefox/v26.02.3-r1",
+      "fpk_version": "26.02.3",
+      "release_tag": "firefox/v26.02.3",
       "service_port": 5801,
       "homepage_url": "https://github.com/jlesage/docker-firefox",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/firefox/fnos/ICON_256.PNG",
@@ -465,7 +465,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T06:52:10Z",
+      "updated_at": "2026-03-11T08:08:33Z",
       "download_count": 58,
       "app_type": "docker",
       "category": "browser"
@@ -708,8 +708,8 @@
       "display_name": "Home Assistant",
       "description": "开源智能家居中枢平台，支持数千种智能设备的自动化控制。",
       "version": "2026.3.1",
-      "fpk_version": "2026.3.1-r1",
-      "release_tag": "homeassistant/v2026.3.1-r1",
+      "fpk_version": "2026.3.1",
+      "release_tag": "homeassistant/v2026.3.1",
       "service_port": 8123,
       "homepage_url": "https://www.home-assistant.io",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/homeassistant/fnos/ICON_256.PNG",
@@ -717,7 +717,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T06:52:07Z",
+      "updated_at": "2026-03-11T08:08:39Z",
       "download_count": 41,
       "app_type": "docker",
       "category": "system"
@@ -834,8 +834,8 @@
       "display_name": "Jellyseerr",
       "description": "媒体请求管理工具，家庭成员可请求想看的影视并自动下载",
       "version": "2.7.3",
-      "fpk_version": "2.7.3-r1",
-      "release_tag": "jellyseerr/v2.7.3-r1",
+      "fpk_version": "2.7.3",
+      "release_tag": "jellyseerr/v2.7.3",
       "service_port": 5055,
       "homepage_url": "https://github.com/Fallenbagel/jellyseerr",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/jellyseerr/fnos/ICON_256.PNG",
@@ -843,7 +843,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T06:52:19Z",
+      "updated_at": "2026-03-11T08:08:38Z",
       "download_count": 3,
       "app_type": "docker",
       "category": "content"
@@ -897,8 +897,8 @@
       "display_name": "KodBox",
       "description": "KodBox (可道云) 是一个开源的私有云存储和文件管理平台，支持在线文档编辑和多人协作。",
       "version": "1.63",
-      "fpk_version": "1.63-r1",
-      "release_tag": "kodbox/v1.63-r1",
+      "fpk_version": "1.63",
+      "release_tag": "kodbox/v1.63",
       "service_port": 8500,
       "homepage_url": "https://kodcloud.com",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/kodbox/fnos/ICON_256.PNG",
@@ -906,7 +906,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T06:52:28Z",
+      "updated_at": "2026-03-11T08:08:41Z",
       "download_count": 12,
       "app_type": "docker",
       "category": "content"
@@ -1510,8 +1510,8 @@
       "display_name": "Ombi",
       "description": "媒体请求管理工具，用户可请求添加电影/电视剧到 Plex/Jellyfin。",
       "version": "4.53.4",
-      "fpk_version": "4.53.4-r1",
-      "release_tag": "ombi/v4.53.4-r1",
+      "fpk_version": "4.53.4",
+      "release_tag": "ombi/v4.53.4",
       "service_port": 3579,
       "homepage_url": "https://github.com/Ombi-app/Ombi",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/ombi/fnos/ICON_256.PNG",
@@ -1519,7 +1519,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T06:51:40Z",
+      "updated_at": "2026-03-11T08:08:31Z",
       "download_count": 2,
       "app_type": "docker",
       "category": "media"
