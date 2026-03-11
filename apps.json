@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-03-11T17:44:40Z",
+  "generated_at": "2026-03-11T17:44:52Z",
   "source": {
     "name": "conversun/fnos-apps",
     "url": "https://github.com/conversun/fnos-apps"
@@ -13,8 +13,8 @@
       "display_name": "Actual Budget",
       "description": "本地优先的个人记账与预算管理工具",
       "version": "26.3.0",
-      "fpk_version": "26.3.0-r1",
-      "release_tag": "actual-budget/v26.3.0-r1",
+      "fpk_version": "26.3.0",
+      "release_tag": "actual-budget/v26.3.0",
       "service_port": 5006,
       "homepage_url": "https://actualbudget.org",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/actual-budget/fnos/ICON_256.PNG",
@@ -22,7 +22,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:38:33Z",
+      "updated_at": "2026-03-11T17:44:44Z",
       "download_count": 15,
       "app_type": "docker",
       "category": "system"
@@ -245,8 +245,8 @@
       "display_name": "Chromium",
       "description": "Chromium 浏览器的 Docker 容器版本，通过网页即可远程访问，内置中文字体支持。",
       "version": "26.02.4",
-      "fpk_version": "26.02.4-r1",
-      "release_tag": "chromium/v26.02.4-r1",
+      "fpk_version": "26.02.4",
+      "release_tag": "chromium/v26.02.4",
       "service_port": 5802,
       "homepage_url": "https://github.com/jlesage/docker-chromium",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/chromium/fnos/ICON_256.PNG",
@@ -254,7 +254,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:37:24Z",
+      "updated_at": "2026-03-11T17:44:46Z",
       "download_count": 31,
       "app_type": "docker",
       "category": "browser"
@@ -519,8 +519,8 @@
       "display_name": "Firefox",
       "description": "Firefox 浏览器的 Docker 容器版本，通过网页即可远程访问，内置中文字体支持。",
       "version": "26.02.3",
-      "fpk_version": "26.02.3-r1",
-      "release_tag": "firefox/v26.02.3-r1",
+      "fpk_version": "26.02.3",
+      "release_tag": "firefox/v26.02.3",
       "service_port": 5801,
       "homepage_url": "https://github.com/jlesage/docker-firefox",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/firefox/fnos/ICON_256.PNG",
@@ -528,7 +528,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:37:59Z",
+      "updated_at": "2026-03-11T17:44:40Z",
       "download_count": 58,
       "app_type": "docker",
       "category": "browser"
@@ -960,8 +960,8 @@
       "display_name": "KodBox",
       "description": "KodBox (可道云) 是一个开源的私有云存储和文件管理平台，支持在线文档编辑和多人协作。",
       "version": "1.63",
-      "fpk_version": "1.63-r1",
-      "release_tag": "kodbox/v1.63-r1",
+      "fpk_version": "1.63",
+      "release_tag": "kodbox/v1.63",
       "service_port": 8500,
       "homepage_url": "https://kodcloud.com",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/kodbox/fnos/ICON_256.PNG",
@@ -969,7 +969,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:37:58Z",
+      "updated_at": "2026-03-11T17:44:45Z",
       "download_count": 12,
       "app_type": "docker",
       "category": "content"
@@ -1193,8 +1193,8 @@
       "display_name": "Mealie",
       "description": "自托管食谱管理工具，支持网页导入和家庭共享",
       "version": "3.12.0",
-      "fpk_version": "3.12.0-r1",
-      "release_tag": "mealie/v3.12.0-r1",
+      "fpk_version": "3.12.0",
+      "release_tag": "mealie/v3.12.0",
       "service_port": 9925,
       "homepage_url": "https://mealie.io",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/mealie/fnos/ICON_256.PNG",
@@ -1202,7 +1202,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:37:43Z",
+      "updated_at": "2026-03-11T17:44:39Z",
       "download_count": 32,
       "app_type": "docker",
       "category": "content"
@@ -1457,7 +1457,7 @@
         "arm"
       ],
       "updated_at": "2026-03-08T08:04:31Z",
-      "download_count": 17,
+      "download_count": 34,
       "app_type": "native",
       "category": "system"
     },
@@ -1468,8 +1468,8 @@
       "display_name": "Nginx Proxy Manager",
       "description": "图形化反向代理管理工具，支持 SSL 证书自动申请和续期。",
       "version": "2.14.0",
-      "fpk_version": "2.14.0-r1",
-      "release_tag": "nginx-proxy-manager/v2.14.0-r1",
+      "fpk_version": "2.14.0",
+      "release_tag": "nginx-proxy-manager/v2.14.0",
       "service_port": 81,
       "homepage_url": "https://github.com/NginxProxyManager/nginx-proxy-manager",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/nginx-proxy-manager/fnos/ICON_256.PNG",
@@ -1477,7 +1477,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:37:21Z",
+      "updated_at": "2026-03-11T17:44:42Z",
       "download_count": 4,
       "app_type": "docker",
       "category": "system"
@@ -1699,8 +1699,8 @@
       "display_name": "PhotoPrism",
       "description": "AI 驱动的照片管理工具，支持人脸识别和地图浏览",
       "version": "260305",
-      "fpk_version": "260305-r1",
-      "release_tag": "photoprism/v260305-r1",
+      "fpk_version": "260305",
+      "release_tag": "photoprism/v260305",
       "service_port": 2342,
       "homepage_url": "https://photoprism.app",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/photoprism/fnos/ICON_256.PNG",
@@ -1708,7 +1708,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:38:16Z",
+      "updated_at": "2026-03-11T17:44:45Z",
       "download_count": 34,
       "app_type": "docker",
       "category": "content"
@@ -2035,8 +2035,8 @@
       "display_name": "Stirling-PDF",
       "description": "功能强大的本地 PDF 工具箱，支持合并、拆分、OCR 等操作",
       "version": "2.7.0",
-      "fpk_version": "2.7.0-r1",
-      "release_tag": "stirling-pdf/v2.7.0-r1",
+      "fpk_version": "2.7.0",
+      "release_tag": "stirling-pdf/v2.7.0",
       "service_port": 18080,
       "homepage_url": "https://stirlingpdf.io",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/stirling-pdf/fnos/ICON_256.PNG",
@@ -2044,7 +2044,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:37:41Z",
+      "updated_at": "2026-03-11T17:44:39Z",
       "download_count": 64,
       "app_type": "docker",
       "category": "system"
@@ -2203,8 +2203,8 @@
       "display_name": "Transmission",
       "description": "Transmission 是一个轻量级的 BitTorrent 客户端，以简洁高效著称，支持 Web 远程管理。",
       "version": "4.1.1",
-      "fpk_version": "4.1.1-r1-ls334-r1",
-      "release_tag": "transmission/v4.1.1-r1-ls334-r1",
+      "fpk_version": "4.1.1-r1-ls334",
+      "release_tag": "transmission/v4.1.1-r1-ls334",
       "service_port": 9091,
       "homepage_url": "https://transmissionbt.com",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/transmission/fnos/ICON_256.PNG",
@@ -2212,7 +2212,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:38:14Z",
+      "updated_at": "2026-03-11T17:44:43Z",
       "download_count": 38,
       "app_type": "docker",
       "category": "download"
