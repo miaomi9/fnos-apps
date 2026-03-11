@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-03-11T18:24:06Z",
+  "generated_at": "2026-03-11T18:24:17Z",
   "source": {
     "name": "conversun/fnos-apps",
     "url": "https://github.com/conversun/fnos-apps"
@@ -266,8 +266,8 @@
       "display_name": "Chromium",
       "description": "Chromium 浏览器的 Docker 容器版本，通过网页即可远程访问，内置中文字体支持。",
       "version": "26.02.4",
-      "fpk_version": "26.02.4",
-      "release_tag": "chromium/v26.02.4",
+      "fpk_version": "26.02.4-r1",
+      "release_tag": "chromium/v26.02.4-r1",
       "service_port": 5802,
       "homepage_url": "https://github.com/jlesage/docker-chromium",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/chromium/fnos/ICON_256.PNG",
@@ -275,7 +275,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:44:46Z",
+      "updated_at": "2026-03-11T18:24:08Z",
       "download_count": 31,
       "app_type": "docker",
       "category": "browser"
@@ -392,8 +392,8 @@
       "display_name": "DPanel",
       "description": "轻量级 Docker 可视化管理面板，支持容器管理和镜像操作。",
       "version": "1.9.3.1",
-      "fpk_version": "1.9.3.1",
-      "release_tag": "dpanel/v1.9.3.1",
+      "fpk_version": "1.9.3.1-r1",
+      "release_tag": "dpanel/v1.9.3.1-r1",
       "service_port": 8807,
       "homepage_url": "https://github.com/donknap/dpanel",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/dpanel/fnos/ICON_256.PNG",
@@ -401,7 +401,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:45:33Z",
+      "updated_at": "2026-03-11T18:24:10Z",
       "download_count": 19,
       "app_type": "docker",
       "category": "system"
@@ -413,8 +413,8 @@
       "display_name": "Duplicati",
       "description": "加密备份工具，支持增量备份到云存储和本地。",
       "version": "2.2.0.3_stable_2026-01-06",
-      "fpk_version": "2.2.0.3_stable_2026-01-06",
-      "release_tag": "duplicati/v2.2.0.3_stable_2026-01-06",
+      "fpk_version": "2.2.0.3_stable_2026-01-06-r1",
+      "release_tag": "duplicati/v2.2.0.3_stable_2026-01-06-r1",
       "service_port": 8200,
       "homepage_url": "https://duplicati.com",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/duplicati/fnos/ICON_256.PNG",
@@ -422,7 +422,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:45:11Z",
+      "updated_at": "2026-03-11T18:24:11Z",
       "download_count": 28,
       "app_type": "docker",
       "category": "system"
@@ -1065,8 +1065,8 @@
       "display_name": "LibreChat",
       "description": "AI 聊天界面，支持 OpenAI、Anthropic 等多种 AI 模型。",
       "version": "null",
-      "fpk_version": "null",
-      "release_tag": "librechat/vnull",
+      "fpk_version": "null-r1",
+      "release_tag": "librechat/vnull-r1",
       "service_port": 3080,
       "homepage_url": "https://librechat.ai",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/librechat/fnos/ICON_256.PNG",
@@ -1074,7 +1074,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:44:28Z",
+      "updated_at": "2026-03-11T18:24:13Z",
       "download_count": 21,
       "app_type": "docker",
       "category": "system",
@@ -1720,8 +1720,8 @@
       "display_name": "PhotoPrism",
       "description": "AI 驱动的照片管理工具，支持人脸识别和地图浏览",
       "version": "260305",
-      "fpk_version": "260305",
-      "release_tag": "photoprism/v260305",
+      "fpk_version": "260305-r1",
+      "release_tag": "photoprism/v260305-r1",
       "service_port": 2342,
       "homepage_url": "https://photoprism.app",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/photoprism/fnos/ICON_256.PNG",
@@ -1729,7 +1729,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:44:45Z",
+      "updated_at": "2026-03-11T18:24:13Z",
       "download_count": 34,
       "app_type": "docker",
       "category": "content"
