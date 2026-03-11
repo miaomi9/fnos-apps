@@ -12,7 +12,7 @@ else
     head -1)
 fi
 
-[ -z "$VERSION" ] && { echo "Failed to resolve version for tinyMediaManager" >&2; exit 1; }
+[ -z "$VERSION" ] || [ "$VERSION" = "null" ] && { echo "Failed to resolve version for tinyMediaManager" >&2; exit 1; }
 
 echo "VERSION=$VERSION"
 

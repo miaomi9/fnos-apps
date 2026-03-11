@@ -10,7 +10,7 @@ if [ -n "$INPUT_VERSION" ]; then
   VERSION="$INPUT_VERSION"
 fi
 
-[ -z "$VERSION" ] && { echo "Failed to resolve version for openclaw" >&2; exit 1; }
+[ -z "$VERSION" ] || [ "$VERSION" = "null" ] && { echo "Failed to resolve version for openclaw" >&2; exit 1; }
 
 echo "VERSION=$VERSION"
 

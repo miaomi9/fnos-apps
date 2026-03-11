@@ -15,7 +15,7 @@ else
   fi
 fi
 
-[ -z "$VERSION" ] && { echo "Failed to resolve version for cloudflared" >&2; exit 1; }
+[ -z "$VERSION" ] || [ "$VERSION" = "null" ] && { echo "Failed to resolve version for cloudflared" >&2; exit 1; }
 
 echo "VERSION=$VERSION"
 

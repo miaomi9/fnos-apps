@@ -13,7 +13,7 @@ else
   VERSION=$(echo "$TAG" | sed 's/^v//' | sed 's/\.[0-9]*$//')
 fi
 
-[ -z "$VERSION" ] && { echo "Failed to resolve version for kavita" >&2; exit 1; }
+[ -z "$VERSION" ] || [ "$VERSION" = "null" ] && { echo "Failed to resolve version for kavita" >&2; exit 1; }
 
 echo "VERSION=$VERSION"
 

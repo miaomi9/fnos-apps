@@ -13,7 +13,7 @@ fi
 
 FULL_VERSION=$(echo "$API_RESPONSE" | jq -r '.computer.Linux.version')
 
-[ -z "$VERSION" ] && { echo "Failed to resolve version for plex" >&2; exit 1; }
+[ -z "$VERSION" ] || [ "$VERSION" = "null" ] && { echo "Failed to resolve version for plex" >&2; exit 1; }
 
 echo "VERSION=$VERSION"
 echo "FULL_VERSION=$FULL_VERSION"

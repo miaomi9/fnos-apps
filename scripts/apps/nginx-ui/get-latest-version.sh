@@ -19,7 +19,7 @@ else
   VERSION=$(echo "$TAG" | sed 's/^v//')
 fi
 
-[ -z "$VERSION" ] && { echo "Failed to resolve version for nginx-ui" >&2; exit 1; }
+[ -z "$VERSION" ] || [ "$VERSION" = "null" ] && { echo "Failed to resolve version for nginx-ui" >&2; exit 1; }
 
 echo "VERSION=$VERSION"
 

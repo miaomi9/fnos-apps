@@ -6,11 +6,11 @@ INPUT_VERSION="${1:-}"
 if [ -n "$INPUT_VERSION" ]; then
   VERSION="$INPUT_VERSION"
 else
-  TAG=$(curl -sL "https://api.github.com/repos/linuxserver/docker-sunshine/releases/latest" | jq -r '.tag_name')
-  VERSION=$(echo "$TAG" | sed 's/^v//')
+  VERSION=$(curl -sL "https://api.github.com/repos/LizardByte/Sunshine/releases" | \
+    jq -r '[.[] | select(.prerelease == false)][0].tag_name // empty' | sed 's/^v//')
 fi
 
-[ -z "$VERSION" ] && { echo "Failed to resolve version for sunshine" >&2; exit 1; }
+[ -z "$VERSION" ] || [ "$VERSION" = "null" ] && { echo "Failed to resolve version for sunshine" >&2; exit 1; }
 
 echo "VERSION=$VERSION"
 

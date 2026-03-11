@@ -38,7 +38,7 @@ else
     jq -r --arg version "$VERSION" --arg arch "$PKG_ARCH" '.[] | select(any(.assets[]?; .name == ("smartdns." + $version + "." + $arch + "-linux-all.tar.gz"))) | .tag_name' | head -1)
 fi
 
-[ -z "$VERSION" ] && { echo "Failed to resolve version for smartdns" >&2; exit 1; }
+[ -z "$VERSION" ] || [ "$VERSION" = "null" ] && { echo "Failed to resolve version for smartdns" >&2; exit 1; }
 [ -z "$UPSTREAM_TAG" ] && { echo "Failed to resolve upstream tag for smartdns" >&2; exit 1; }
 
 echo "VERSION=$VERSION"

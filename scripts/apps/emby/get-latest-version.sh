@@ -11,7 +11,7 @@ else
     grep -B1 "^Latest$" | head -1 | sed 's|releases/tag/||')
 fi
 
-[ -z "$VERSION" ] && { echo "Failed to resolve version for emby" >&2; exit 1; }
+[ -z "$VERSION" ] || [ "$VERSION" = "null" ] && { echo "Failed to resolve version for emby" >&2; exit 1; }
 
 echo "VERSION=$VERSION"
 

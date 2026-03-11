@@ -18,7 +18,7 @@ else
     tail -1)
 fi
 
-[ -z "$VERSION" ] && { echo "Failed to resolve version for melody-hub" >&2; exit 1; }
+[ -z "$VERSION" ] || [ "$VERSION" = "null" ] && { echo "Failed to resolve version for melody-hub" >&2; exit 1; }
 
 echo "VERSION=$VERSION"
 

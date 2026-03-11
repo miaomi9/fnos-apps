@@ -9,7 +9,7 @@ else
   VERSION="latest-full"
 fi
 
-[ -z "$VERSION" ] && { echo "Failed to resolve version for glances" >&2; exit 1; }
+[ -z "$VERSION" ] || [ "$VERSION" = "null" ] && { echo "Failed to resolve version for glances" >&2; exit 1; }
 
 echo "VERSION=$VERSION"
 

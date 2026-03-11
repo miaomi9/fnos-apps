@@ -10,7 +10,7 @@ else
     jq -r '.tag_name' | sed 's/^v//')
 fi
 
-[ -z "$VERSION" ] && { echo "Failed to resolve version for copyparty" >&2; exit 1; }
+[ -z "$VERSION" ] || [ "$VERSION" = "null" ] && { echo "Failed to resolve version for copyparty" >&2; exit 1; }
 
 echo "VERSION=$VERSION"
 

@@ -10,7 +10,7 @@ else
   VERSION=$(echo "$TAG" | sed -E 's/^clamav-//' | sed -E 's/^v//')
 fi
 
-[ -z "$VERSION" ] && { echo "Failed to resolve version for clamav" >&2; exit 1; }
+[ -z "$VERSION" ] || [ "$VERSION" = "null" ] && { echo "Failed to resolve version for clamav" >&2; exit 1; }
 
 echo "VERSION=$VERSION"
 

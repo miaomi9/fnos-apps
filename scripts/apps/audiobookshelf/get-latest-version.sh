@@ -10,7 +10,7 @@ else
     grep '"tag_name":' | sed -E 's/.*"v([^"]+)".*/\1/')
 fi
 
-[ -z "$VERSION" ] && { echo "Failed to resolve version for audiobookshelf" >&2; exit 1; }
+[ -z "$VERSION" ] || [ "$VERSION" = "null" ] && { echo "Failed to resolve version for audiobookshelf" >&2; exit 1; }
 
 echo "VERSION=$VERSION"
 

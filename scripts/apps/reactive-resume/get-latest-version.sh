@@ -9,7 +9,7 @@ else
   VERSION=$(curl -sL "https://api.github.com/repos/amruthpillai/reactive-resume/releases/latest" | jq -r '.tag_name')
 fi
 
-[ -z "$VERSION" ] && { echo "Failed to resolve version for reactive-resume" >&2; exit 1; }
+[ -z "$VERSION" ] || [ "$VERSION" = "null" ] && { echo "Failed to resolve version for reactive-resume" >&2; exit 1; }
 
 echo "VERSION=$VERSION"
 

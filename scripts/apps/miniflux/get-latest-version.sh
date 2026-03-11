@@ -12,7 +12,7 @@ fi
 
 VERSION=$(echo "$VERSION" | sed 's/^v//')
 
-[ -z "$VERSION" ] && { echo "Failed to resolve version for miniflux" >&2; exit 1; }
+[ -z "$VERSION" ] || [ "$VERSION" = "null" ] && { echo "Failed to resolve version for miniflux" >&2; exit 1; }
 
 echo "VERSION=$VERSION"
 

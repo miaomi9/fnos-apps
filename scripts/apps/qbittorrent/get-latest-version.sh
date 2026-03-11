@@ -12,7 +12,7 @@ else
   VERSION=$(echo "$UPSTREAM_TAG" | sed -E 's/release-([0-9]+\.[0-9]+\.[0-9]+)_.*/\1/')
 fi
 
-[ -z "$VERSION" ] && { echo "Failed to resolve version for qbittorrent" >&2; exit 1; }
+[ -z "$VERSION" ] || [ "$VERSION" = "null" ] && { echo "Failed to resolve version for qbittorrent" >&2; exit 1; }
 
 echo "VERSION=$VERSION"
 echo "UPSTREAM_TAG=$UPSTREAM_TAG"

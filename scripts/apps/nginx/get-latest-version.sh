@@ -12,7 +12,7 @@ else
     sed -E 's/nginx_([0-9]+\.[0-9]+\.[0-9]+)-.*/\1/' | sort -V | tail -1)
 fi
 
-[ -z "$VERSION" ] && { echo "Failed to resolve version for nginx" >&2; exit 1; }
+[ -z "$VERSION" ] || [ "$VERSION" = "null" ] && { echo "Failed to resolve version for nginx" >&2; exit 1; }
 
 echo "VERSION=$VERSION"
 
