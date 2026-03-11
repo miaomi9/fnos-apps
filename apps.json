@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-03-11T17:44:27Z",
+  "generated_at": "2026-03-11T17:44:40Z",
   "source": {
     "name": "conversun/fnos-apps",
     "url": "https://github.com/conversun/fnos-apps"
@@ -119,8 +119,8 @@
       "display_name": "Audiobookshelf",
       "description": "自托管的有声书和播客服务器，支持多用户管理、进度同步和丰富的元数据管理。",
       "version": "2.32.1",
-      "fpk_version": "2.32.1-r1",
-      "release_tag": "audiobookshelf/v2.32.1-r1",
+      "fpk_version": "2.32.1",
+      "release_tag": "audiobookshelf/v2.32.1",
       "service_port": 13378,
       "homepage_url": "https://www.audiobookshelf.org",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/audiobookshelf/fnos/ICON_256.PNG",
@@ -128,7 +128,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:37:09Z",
+      "updated_at": "2026-03-11T17:44:26Z",
       "download_count": 4,
       "app_type": "docker",
       "category": "content"
@@ -161,8 +161,8 @@
       "display_name": "Bazarr",
       "description": "字幕自动化管理工具，与 Sonarr/Radarr 集成自动下载匹配字幕",
       "version": "1.5.6",
-      "fpk_version": "1.5.6-r1",
-      "release_tag": "bazarr/v1.5.6-r1",
+      "fpk_version": "1.5.6",
+      "release_tag": "bazarr/v1.5.6",
       "service_port": 6767,
       "homepage_url": "https://www.bazarr.media",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/bazarr/fnos/ICON_256.PNG",
@@ -170,7 +170,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:38:01Z",
+      "updated_at": "2026-03-11T17:44:30Z",
       "download_count": 12,
       "app_type": "docker",
       "category": "content"
@@ -329,8 +329,8 @@
       "display_name": "CopyParty",
       "description": "轻量级文件共享服务器，支持拖拽上传、WebDAV 和搜索。",
       "version": "1.20.12",
-      "fpk_version": "1.20.12-r1",
-      "release_tag": "copyparty/v1.20.12-r1",
+      "fpk_version": "1.20.12",
+      "release_tag": "copyparty/v1.20.12",
       "service_port": 3923,
       "homepage_url": "https://github.com/9001/copyparty",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/copyparty/fnos/ICON_256.PNG",
@@ -338,7 +338,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:37:50Z",
+      "updated_at": "2026-03-11T17:44:26Z",
       "download_count": 7,
       "app_type": "docker",
       "category": "content"
@@ -455,8 +455,8 @@
       "display_name": "Ente",
       "description": "端到端加密照片备份和存储服务，Google Photos 的隐私替代方案。",
       "version": "photos-v1.3.22",
-      "fpk_version": "photos-v1.3.22-r1",
-      "release_tag": "ente/vphotos-v1.3.22-r1",
+      "fpk_version": "photos-v1.3.22",
+      "release_tag": "ente/vphotos-v1.3.22",
       "service_port": 8510,
       "homepage_url": "https://ente.io",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/ente/fnos/ICON_256.PNG",
@@ -464,7 +464,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:37:22Z",
+      "updated_at": "2026-03-11T17:44:28Z",
       "download_count": 26,
       "app_type": "docker",
       "category": "system",
@@ -917,9 +917,9 @@
       "file_prefix": "jellystat",
       "display_name": "Jellystat",
       "description": "Jellyfin 媒体服务器的使用统计和监控面板。",
-      "version": "null",
-      "fpk_version": "null",
-      "release_tag": "jellystat/vnull",
+      "version": "1.1.8",
+      "fpk_version": "1.1.8-r1",
+      "release_tag": "jellystat/v1.1.8-r1",
       "service_port": 3004,
       "homepage_url": "https://github.com/CyferShepard/Jellystat",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/jellystat/fnos/ICON_256.PNG",
@@ -927,7 +927,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:38:22Z",
+      "updated_at": "2026-03-11T17:44:29Z",
       "download_count": 8,
       "app_type": "docker",
       "category": "media"
@@ -1023,8 +1023,8 @@
       "display_name": "Koodo Reader",
       "description": "开源电子书阅读器，支持 EPUB、PDF、Mobi 等格式，跨平台同步阅读进度。",
       "version": "2.3.0",
-      "fpk_version": "2.3.0",
-      "release_tag": "koodo-reader/v2.3.0",
+      "fpk_version": "2.3.0-r1",
+      "release_tag": "koodo-reader/v2.3.0-r1",
       "service_port": 8930,
       "homepage_url": "https://github.com/koodo-reader/koodo-reader",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/koodo-reader/fnos/ICON_256.PNG",
@@ -1032,7 +1032,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:38:35Z",
+      "updated_at": "2026-03-11T17:44:33Z",
       "download_count": 14,
       "app_type": "docker",
       "category": "content"
@@ -1044,8 +1044,8 @@
       "display_name": "LibreChat",
       "description": "AI 聊天界面，支持 OpenAI、Anthropic 等多种 AI 模型。",
       "version": "null",
-      "fpk_version": "null-r1",
-      "release_tag": "librechat/vnull-r1",
+      "fpk_version": "null",
+      "release_tag": "librechat/vnull",
       "service_port": 3080,
       "homepage_url": "https://librechat.ai",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/librechat/fnos/ICON_256.PNG",
@@ -1053,7 +1053,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:37:29Z",
+      "updated_at": "2026-03-11T17:44:28Z",
       "download_count": 21,
       "app_type": "docker",
       "category": "system",
@@ -1277,8 +1277,8 @@
       "display_name": "Miniflux",
       "description": "极简 RSS 阅读器，Go 编写，性能优异",
       "version": "2.2.17",
-      "fpk_version": "2.2.17-r1",
-      "release_tag": "miniflux/v2.2.17-r1",
+      "fpk_version": "2.2.17",
+      "release_tag": "miniflux/v2.2.17",
       "service_port": 8190,
       "homepage_url": "https://miniflux.app",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/miniflux/fnos/ICON_256.PNG",
@@ -1286,7 +1286,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:38:14Z",
+      "updated_at": "2026-03-11T17:44:29Z",
       "download_count": 6,
       "app_type": "docker",
       "category": "content"
@@ -1405,8 +1405,8 @@
       "display_name": "Netdata",
       "description": "实时系统监控面板，每秒采集 CPU/内存/磁盘/网络等指标。",
       "version": "2.9.0",
-      "fpk_version": "2.9.0-r1",
-      "release_tag": "netdata/v2.9.0-r1",
+      "fpk_version": "2.9.0",
+      "release_tag": "netdata/v2.9.0",
       "service_port": 19999,
       "homepage_url": "https://github.com/netdata/netdata",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/netdata/fnos/ICON_256.PNG",
@@ -1414,7 +1414,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:38:05Z",
+      "updated_at": "2026-03-11T17:44:33Z",
       "download_count": 32,
       "app_type": "docker",
       "category": "system"
@@ -1426,8 +1426,8 @@
       "display_name": "Nextcloud",
       "description": "开源私有云存储平台,支持文件同步、在线文档协作和日历联系人管理。",
       "version": "33.0.0",
-      "fpk_version": "33.0.0-r1",
-      "release_tag": "nextcloud/v33.0.0-r1",
+      "fpk_version": "33.0.0",
+      "release_tag": "nextcloud/v33.0.0",
       "service_port": 8082,
       "homepage_url": "https://nextcloud.com",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/nextcloud/fnos/ICON_256.PNG",
@@ -1435,7 +1435,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:37:53Z",
+      "updated_at": "2026-03-11T17:44:32Z",
       "download_count": 17,
       "app_type": "docker",
       "category": "content"
@@ -1541,7 +1541,7 @@
         "arm"
       ],
       "updated_at": "2026-03-08T08:04:09Z",
-      "download_count": 12,
+      "download_count": 18,
       "app_type": "native",
       "category": "system"
     },
@@ -1720,8 +1720,8 @@
       "display_name": "Pi-hole",
       "description": "全网广告拦截工具，通过 DNS 过滤广告和追踪器。",
       "version": "2026.02.0",
-      "fpk_version": "2026.02.0-r1",
-      "release_tag": "pihole/v2026.02.0-r1",
+      "fpk_version": "2026.02.0",
+      "release_tag": "pihole/v2026.02.0",
       "service_port": 8053,
       "homepage_url": "https://pi-hole.net",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/pihole/fnos/ICON_256.PNG",
@@ -1729,7 +1729,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:38:36Z",
+      "updated_at": "2026-03-11T17:44:28Z",
       "download_count": 14,
       "app_type": "docker",
       "category": "system"
@@ -1930,8 +1930,8 @@
       "display_name": "Rocket.Chat",
       "description": "开源团队协作通讯平台,支持即时消息、音视频通话和文件共享。",
       "version": "8.2.0",
-      "fpk_version": "8.2.0-r1",
-      "release_tag": "rocketchat/v8.2.0-r1",
+      "fpk_version": "8.2.0",
+      "release_tag": "rocketchat/v8.2.0",
       "service_port": 3003,
       "homepage_url": "https://rocket.chat",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/rocketchat/fnos/ICON_256.PNG",
@@ -1939,7 +1939,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:37:34Z",
+      "updated_at": "2026-03-11T17:44:36Z",
       "download_count": 6,
       "app_type": "docker",
       "category": "content"
@@ -1972,8 +1972,8 @@
       "display_name": "Seerr",
       "description": "影视媒体请求管理工具，支持 Plex/Jellyfin/Emby，Overseerr 的社区分支。",
       "version": "3.1.0",
-      "fpk_version": "3.1.0-r1",
-      "release_tag": "seerr/v3.1.0-r1",
+      "fpk_version": "3.1.0",
+      "release_tag": "seerr/v3.1.0",
       "service_port": 5055,
       "homepage_url": "https://github.com/seerr-team/seerr",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/seerr/fnos/ICON_256.PNG",
@@ -1981,7 +1981,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:37:44Z",
+      "updated_at": "2026-03-11T17:44:26Z",
       "download_count": 6,
       "app_type": "docker",
       "category": "media"
@@ -2182,8 +2182,8 @@
       "display_name": "tinyMediaManager",
       "description": "影视文件元数据管理工具，支持从 TheMovieDB、IMDb 刮削元数据，为 Kodi、Emby、Jellyfin、Plex 创建 NFO 文件，自动重命名和整理。含内置 JRE，通过虚拟显示运行。",
       "version": "5.2.8",
-      "fpk_version": "5.2.8-r1",
-      "release_tag": "tinymediamanager/v5.2.8-r1",
+      "fpk_version": "5.2.8",
+      "release_tag": "tinymediamanager/v5.2.8",
       "service_port": 5800,
       "homepage_url": "https://www.tinymediamanager.org",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/tinymediamanager/fnos/ICON_256.PNG",
@@ -2191,7 +2191,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:37:39Z",
+      "updated_at": "2026-03-11T17:44:30Z",
       "download_count": 44,
       "app_type": "docker",
       "category": "media"
@@ -2245,8 +2245,8 @@
       "display_name": "Vaultwarden",
       "description": "轻量级 Bitwarden 兼容密码管理服务器，使用 Rust 编写，支持自托管密码管理。",
       "version": "1.35.4",
-      "fpk_version": "1.35.4-r1",
-      "release_tag": "vaultwarden/v1.35.4-r1",
+      "fpk_version": "1.35.4",
+      "release_tag": "vaultwarden/v1.35.4",
       "service_port": 8880,
       "homepage_url": "https://github.com/dani-garcia/vaultwarden",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/vaultwarden/fnos/ICON_256.PNG",
@@ -2254,7 +2254,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:38:10Z",
+      "updated_at": "2026-03-11T17:44:30Z",
       "download_count": 24,
       "app_type": "docker",
       "category": "system"
