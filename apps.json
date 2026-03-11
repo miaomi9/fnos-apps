@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-03-11T17:45:26Z",
+  "generated_at": "2026-03-11T17:45:36Z",
   "source": {
     "name": "conversun/fnos-apps",
     "url": "https://github.com/conversun/fnos-apps"
@@ -34,8 +34,8 @@
       "display_name": "AdGuardHome",
       "description": "AdGuardHome 是一个网络范围的广告和跟踪器拦截 DNS 服务器，支持 DNS-over-HTTPS、DNS-over-TLS。",
       "version": "0.107.73",
-      "fpk_version": "0.107.73-r1",
-      "release_tag": "adguardhome/v0.107.73-r1",
+      "fpk_version": "0.107.73",
+      "release_tag": "adguardhome/v0.107.73",
       "service_port": 3080,
       "homepage_url": "https://adguard.com/adguard-home/overview.html",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/adguardhome/fnos/ICON_256.PNG",
@@ -43,7 +43,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:38:36Z",
+      "updated_at": "2026-03-11T17:45:31Z",
       "download_count": 10,
       "app_type": "docker",
       "category": "system"
@@ -371,8 +371,8 @@
       "display_name": "DPanel",
       "description": "轻量级 Docker 可视化管理面板，支持容器管理和镜像操作。",
       "version": "1.9.3.1",
-      "fpk_version": "1.9.3.1-r1",
-      "release_tag": "dpanel/v1.9.3.1-r1",
+      "fpk_version": "1.9.3.1",
+      "release_tag": "dpanel/v1.9.3.1",
       "service_port": 8807,
       "homepage_url": "https://github.com/donknap/dpanel",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/dpanel/fnos/ICON_256.PNG",
@@ -380,7 +380,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:38:42Z",
+      "updated_at": "2026-03-11T17:45:33Z",
       "download_count": 19,
       "app_type": "docker",
       "category": "system"
@@ -603,8 +603,8 @@
       "display_name": "Frigate",
       "description": "AI 视频监控系统，支持实时物体检测和录像管理。",
       "version": "0.17.0",
-      "fpk_version": "0.17.0-r1",
-      "release_tag": "frigate/v0.17.0-r1",
+      "fpk_version": "0.17.0",
+      "release_tag": "frigate/v0.17.0",
       "service_port": 8971,
       "homepage_url": "https://frigate.video",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/frigate/fnos/ICON_256.PNG",
@@ -612,7 +612,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:37:19Z",
+      "updated_at": "2026-03-11T17:45:31Z",
       "download_count": 9,
       "app_type": "docker",
       "category": "media"
@@ -645,8 +645,8 @@
       "display_name": "Glances",
       "description": "系统监控工具，提供 Web UI 的实时系统资源监控。",
       "version": "latest-full",
-      "fpk_version": "latest-full-r1",
-      "release_tag": "glances/vlatest-full-r1",
+      "fpk_version": "latest-full",
+      "release_tag": "glances/vlatest-full",
       "service_port": 61208,
       "homepage_url": "https://nicolargo.github.io/glances/",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/glances/fnos/ICON_256.PNG",
@@ -654,7 +654,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:38:32Z",
+      "updated_at": "2026-03-11T17:45:32Z",
       "download_count": 24,
       "app_type": "docker",
       "category": "system"
@@ -939,8 +939,8 @@
       "display_name": "Kavita",
       "description": "开源的漫画、轻小说和电子书阅读服务器",
       "version": "0.8.9",
-      "fpk_version": "0.8.9-r1",
-      "release_tag": "kavita/v0.8.9-r1",
+      "fpk_version": "0.8.9",
+      "release_tag": "kavita/v0.8.9",
       "service_port": 5000,
       "homepage_url": "https://github.com/Kareadita/Kavita",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/kavita/fnos/ICON_256.PNG",
@@ -948,7 +948,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:37:41Z",
+      "updated_at": "2026-03-11T17:45:31Z",
       "download_count": 12,
       "app_type": "docker",
       "category": "media"
@@ -981,8 +981,8 @@
       "display_name": "Koel",
       "description": "个人音乐流媒体服务器,支持在线播放本地音乐库。默认账号 admin@koel.dev / KoelIsCool",
       "version": "8.3.1",
-      "fpk_version": "8.3.1-r1",
-      "release_tag": "koel/v8.3.1-r1",
+      "fpk_version": "8.3.1",
+      "release_tag": "koel/v8.3.1",
       "service_port": 8060,
       "homepage_url": "https://github.com/koel/koel",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/koel/fnos/ICON_256.PNG",
@@ -990,7 +990,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:37:23Z",
+      "updated_at": "2026-03-11T17:45:33Z",
       "download_count": 71,
       "app_type": "docker",
       "category": "media"
@@ -1319,8 +1319,8 @@
       "display_name": "MoviePilot",
       "description": "影视自动化管理工具,支持自动订阅、下载、整理和通知。首次启动通过 Web UI 配置。",
       "version": "2.9.14",
-      "fpk_version": "2.9.14-r1",
-      "release_tag": "moviepilot/v2.9.14-r1",
+      "fpk_version": "2.9.14",
+      "release_tag": "moviepilot/v2.9.14",
       "service_port": 3000,
       "homepage_url": "https://github.com/jxxghp/MoviePilot",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/moviepilot/fnos/ICON_256.PNG",
@@ -1328,7 +1328,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:36:58Z",
+      "updated_at": "2026-03-11T17:45:25Z",
       "download_count": 133,
       "app_type": "docker",
       "category": "content",
@@ -1341,8 +1341,8 @@
       "display_name": "n8n",
       "description": "可视化工作流自动化工具，支持连接数百种服务和 API。",
       "version": "2.11.3",
-      "fpk_version": "2.11.3",
-      "release_tag": "n8n/v2.11.3",
+      "fpk_version": "2.11.3-r1",
+      "release_tag": "n8n/v2.11.3-r1",
       "service_port": 5678,
       "homepage_url": "https://n8n.io",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/n8n/fnos/ICON_256.PNG",
@@ -1350,7 +1350,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:37:29Z",
+      "updated_at": "2026-03-11T17:45:33Z",
       "download_count": 28,
       "app_type": "docker",
       "category": "system"
@@ -1383,8 +1383,8 @@
       "display_name": "NetBird",
       "description": "零信任 VPN 管理平台，提供简单的私有网络组建。",
       "version": "0.66.3",
-      "fpk_version": "0.66.3-r1",
-      "release_tag": "netbird/v0.66.3-r1",
+      "fpk_version": "0.66.3",
+      "release_tag": "netbird/v0.66.3",
       "service_port": 8820,
       "homepage_url": "https://netbird.io",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/netbird/fnos/ICON_256.PNG",
@@ -1392,7 +1392,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:37:38Z",
+      "updated_at": "2026-03-11T17:45:29Z",
       "download_count": 17,
       "app_type": "docker",
       "category": "system",
@@ -2140,8 +2140,8 @@
       "display_name": "Tailscale",
       "description": "Tailscale VPN 客户端，零配置组建安全私有网络，支持远程访问 NAS。",
       "version": "1.94.2",
-      "fpk_version": "1.94.2-r1",
-      "release_tag": "tailscale/v1.94.2-r1",
+      "fpk_version": "1.94.2",
+      "release_tag": "tailscale/v1.94.2",
       "service_port": 8088,
       "homepage_url": "https://github.com/tailscale/tailscale",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/tailscale/fnos/ICON_256.PNG",
@@ -2149,7 +2149,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:38:07Z",
+      "updated_at": "2026-03-11T17:45:31Z",
       "download_count": 10,
       "app_type": "docker",
       "category": "system"
