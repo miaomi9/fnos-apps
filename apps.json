@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-03-11T18:23:28Z",
+  "generated_at": "2026-03-11T18:23:35Z",
   "source": {
     "name": "conversun/fnos-apps",
     "url": "https://github.com/conversun/fnos-apps"
@@ -13,8 +13,8 @@
       "display_name": "Actual Budget",
       "description": "本地优先的个人记账与预算管理工具",
       "version": "26.3.0",
-      "fpk_version": "26.3.0",
-      "release_tag": "actual-budget/v26.3.0",
+      "fpk_version": "26.3.0-r1",
+      "release_tag": "actual-budget/v26.3.0-r1",
       "service_port": 5006,
       "homepage_url": "https://actualbudget.org",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/actual-budget/fnos/ICON_256.PNG",
@@ -22,7 +22,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:44:44Z",
+      "updated_at": "2026-03-11T18:23:33Z",
       "download_count": 15,
       "app_type": "docker",
       "category": "system"
@@ -287,8 +287,8 @@
       "display_name": "ClamAV",
       "description": "开源杀毒引擎，提供文件扫描和病毒检测服务。",
       "version": "1.5.2",
-      "fpk_version": "1.5.2",
-      "release_tag": "clamav/v1.5.2",
+      "fpk_version": "1.5.2-r1",
+      "release_tag": "clamav/v1.5.2-r1",
       "service_port": 3310,
       "homepage_url": "https://github.com/Cisco-Talos/clamav",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/clamav/fnos/ICON_256.PNG",
@@ -296,7 +296,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:45:22Z",
+      "updated_at": "2026-03-11T18:23:27Z",
       "download_count": 13,
       "app_type": "docker",
       "category": "system"
@@ -350,8 +350,8 @@
       "display_name": "CopyParty",
       "description": "轻量级文件共享服务器，支持拖拽上传、WebDAV 和搜索。",
       "version": "1.20.12",
-      "fpk_version": "1.20.12",
-      "release_tag": "copyparty/v1.20.12",
+      "fpk_version": "1.20.12-r1",
+      "release_tag": "copyparty/v1.20.12-r1",
       "service_port": 3923,
       "homepage_url": "https://github.com/9001/copyparty",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/copyparty/fnos/ICON_256.PNG",
@@ -359,7 +359,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:44:26Z",
+      "updated_at": "2026-03-11T18:23:28Z",
       "download_count": 7,
       "app_type": "docker",
       "category": "content"
@@ -1023,8 +1023,8 @@
       "display_name": "Komga",
       "description": "漫画和电子书管理服务器，支持 CBZ/CBR/PDF/EPUB 格式在线阅读。",
       "version": "1.24.1",
-      "fpk_version": "1.24.1",
-      "release_tag": "komga/v1.24.1",
+      "fpk_version": "1.24.1-r1",
+      "release_tag": "komga/v1.24.1-r1",
       "service_port": 25600,
       "homepage_url": "https://github.com/gotson/komga",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/komga/fnos/ICON_256.PNG",
@@ -1032,7 +1032,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:45:07Z",
+      "updated_at": "2026-03-11T18:23:27Z",
       "download_count": 4,
       "app_type": "docker",
       "category": "media"
@@ -1362,8 +1362,8 @@
       "display_name": "n8n",
       "description": "可视化工作流自动化工具，支持连接数百种服务和 API。",
       "version": "2.11.3",
-      "fpk_version": "2.11.3-r1",
-      "release_tag": "n8n/v2.11.3-r1",
+      "fpk_version": "2.11.3",
+      "release_tag": "n8n/v2.11.3",
       "service_port": 5678,
       "homepage_url": "https://n8n.io",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/n8n/fnos/ICON_256.PNG",
@@ -1371,7 +1371,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:45:33Z",
+      "updated_at": "2026-03-11T18:23:27Z",
       "download_count": 28,
       "app_type": "docker",
       "category": "system"
@@ -1573,8 +1573,8 @@
       "display_name": "Ollama",
       "description": "本地大语言模型运行引擎，支持 Llama、Mistral、Gemma 等开源模型。",
       "version": "0.17.7",
-      "fpk_version": "0.17.7",
-      "release_tag": "ollama/v0.17.7",
+      "fpk_version": "0.17.7-r1",
+      "release_tag": "ollama/v0.17.7-r1",
       "service_port": 11434,
       "homepage_url": "https://github.com/ollama/ollama",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/ollama/fnos/ICON_256.PNG",
@@ -1582,7 +1582,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:45:01Z",
+      "updated_at": "2026-03-11T18:23:32Z",
       "download_count": 21,
       "app_type": "docker",
       "category": "ai"
@@ -1909,8 +1909,8 @@
       "display_name": "Reactive Resume",
       "description": "在线简历制作工具，支持多种模板和实时预览。",
       "version": "v5.0.11",
-      "fpk_version": "v5.0.11",
-      "release_tag": "reactive-resume/vv5.0.11",
+      "fpk_version": "v5.0.11-r1",
+      "release_tag": "reactive-resume/vv5.0.11-r1",
       "service_port": 3200,
       "homepage_url": "https://github.com/amruthpillai/reactive-resume",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/reactive-resume/fnos/ICON_256.PNG",
@@ -1918,7 +1918,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-11T17:44:58Z",
+      "updated_at": "2026-03-11T18:23:26Z",
       "download_count": 16,
       "app_type": "docker",
       "category": "content"
