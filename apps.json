@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-03-14T08:05:22Z",
+  "generated_at": "2026-03-14T18:51:30Z",
   "source": {
     "name": "conversun/fnos-apps",
     "url": "https://github.com/conversun/fnos-apps"
@@ -44,7 +44,7 @@
         "arm"
       ],
       "updated_at": "2026-03-12T08:09:55Z",
-      "download_count": 14,
+      "download_count": 15,
       "app_type": "docker",
       "category": "system"
     },
@@ -129,7 +129,7 @@
         "arm"
       ],
       "updated_at": "2026-03-13T08:08:32Z",
-      "download_count": 7,
+      "download_count": 16,
       "app_type": "docker",
       "category": "content"
     },
@@ -234,7 +234,7 @@
         "arm"
       ],
       "updated_at": "2026-03-04T08:05:43Z",
-      "download_count": 35,
+      "download_count": 36,
       "app_type": "native",
       "category": "system"
     },
@@ -255,7 +255,7 @@
         "arm"
       ],
       "updated_at": "2026-03-03T13:38:30Z",
-      "download_count": 46,
+      "download_count": 47,
       "app_type": "native",
       "category": "automation"
     },
@@ -276,7 +276,7 @@
         "arm"
       ],
       "updated_at": "2026-03-14T08:04:14Z",
-      "download_count": 42,
+      "download_count": 51,
       "app_type": "docker",
       "category": "browser"
     },
@@ -339,7 +339,7 @@
         "arm"
       ],
       "updated_at": "2026-03-14T08:04:26Z",
-      "download_count": 17,
+      "download_count": 21,
       "app_type": "native",
       "category": "download"
     },
@@ -381,7 +381,7 @@
         "arm"
       ],
       "updated_at": "2026-03-12T08:09:39Z",
-      "download_count": 19,
+      "download_count": 20,
       "app_type": "native",
       "category": "system"
     },
@@ -444,7 +444,7 @@
         "arm"
       ],
       "updated_at": "2026-03-13T08:08:28Z",
-      "download_count": 3,
+      "download_count": 4,
       "app_type": "native",
       "category": "network"
     },
@@ -465,7 +465,7 @@
         "arm"
       ],
       "updated_at": "2026-03-08T08:04:43Z",
-      "download_count": 153,
+      "download_count": 157,
       "app_type": "native",
       "category": "media"
     },
@@ -529,7 +529,7 @@
         "arm"
       ],
       "updated_at": "2026-03-14T08:04:18Z",
-      "download_count": 57,
+      "download_count": 68,
       "app_type": "native",
       "category": "download"
     },
@@ -550,7 +550,7 @@
         "arm"
       ],
       "updated_at": "2026-03-12T08:09:51Z",
-      "download_count": 81,
+      "download_count": 101,
       "app_type": "docker",
       "category": "browser"
     },
@@ -571,7 +571,7 @@
         "arm"
       ],
       "updated_at": "2026-03-11T20:14:10Z",
-      "download_count": 971,
+      "download_count": 1026,
       "app_type": "native",
       "category": "store"
     },
@@ -697,7 +697,7 @@
         "arm"
       ],
       "updated_at": "2026-03-09T08:08:45Z",
-      "download_count": 79,
+      "download_count": 81,
       "app_type": "native",
       "category": "download"
     },
@@ -1033,7 +1033,7 @@
         "arm"
       ],
       "updated_at": "2026-03-12T08:10:08Z",
-      "download_count": 16,
+      "download_count": 25,
       "app_type": "docker",
       "category": "media"
     },
@@ -1054,7 +1054,7 @@
         "arm"
       ],
       "updated_at": "2026-03-11T18:24:02Z",
-      "download_count": 24,
+      "download_count": 25,
       "app_type": "docker",
       "category": "media"
     },
@@ -1097,7 +1097,7 @@
         "arm"
       ],
       "updated_at": "2026-03-08T08:04:37Z",
-      "download_count": 61,
+      "download_count": 65,
       "app_type": "native",
       "category": "automation"
     },
@@ -1308,7 +1308,7 @@
         "arm"
       ],
       "updated_at": "2026-03-08T08:03:31Z",
-      "download_count": 13,
+      "download_count": 14,
       "app_type": "native",
       "category": "content"
     },
@@ -1510,8 +1510,8 @@
       "display_name": "Nginx Proxy Manager",
       "description": "图形化反向代理管理工具，支持 SSL 证书自动申请和续期。",
       "version": "2.14.0",
-      "fpk_version": "2.14.0",
-      "release_tag": "nginx-proxy-manager/v2.14.0",
+      "fpk_version": "2.14.0-r1",
+      "release_tag": "nginx-proxy-manager/v2.14.0-r1",
       "service_port": 81,
       "homepage_url": "https://github.com/NginxProxyManager/nginx-proxy-manager",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/nginx-proxy-manager/fnos/ICON_256.PNG",
@@ -1519,7 +1519,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-12T08:10:04Z",
+      "updated_at": "2026-03-14T18:51:17Z",
       "download_count": 7,
       "app_type": "docker",
       "category": "system"
@@ -1541,7 +1541,7 @@
         "arm"
       ],
       "updated_at": "2026-03-08T08:04:20Z",
-      "download_count": 26,
+      "download_count": 27,
       "app_type": "native",
       "category": "system"
     },
@@ -1604,7 +1604,7 @@
         "arm"
       ],
       "updated_at": "2026-03-14T08:04:16Z",
-      "download_count": 23,
+      "download_count": 28,
       "app_type": "docker",
       "category": "ai"
     },
@@ -1638,7 +1638,7 @@
       "version": "0.8.10",
       "fpk_version": "0.8.10",
       "release_tag": "open-webui/v0.8.10",
-      "service_port": 8080,
+      "service_port": 8380,
       "homepage_url": "https://github.com/open-webui/open-webui",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/open-webui/fnos/ICON_256.PNG",
       "platforms": [
@@ -1772,7 +1772,7 @@
         "arm"
       ],
       "updated_at": "2026-03-12T08:09:43Z",
-      "download_count": 14,
+      "download_count": 15,
       "app_type": "docker",
       "category": "network"
     },
@@ -1793,7 +1793,7 @@
         "arm"
       ],
       "updated_at": "2026-03-08T08:04:31Z",
-      "download_count": 106,
+      "download_count": 109,
       "app_type": "native",
       "category": "media"
     },
@@ -1835,7 +1835,7 @@
         "arm"
       ],
       "updated_at": "2026-03-03T13:39:09Z",
-      "download_count": 17,
+      "download_count": 20,
       "app_type": "native",
       "category": "automation"
     },
@@ -1877,7 +1877,7 @@
         "arm"
       ],
       "updated_at": "2026-03-08T08:03:31Z",
-      "download_count": 120,
+      "download_count": 123,
       "app_type": "native",
       "category": "download"
     },
@@ -1898,7 +1898,7 @@
         "arm"
       ],
       "updated_at": "2026-03-03T13:39:10Z",
-      "download_count": 47,
+      "download_count": 50,
       "app_type": "native",
       "category": "automation"
     },
@@ -1961,7 +1961,7 @@
         "arm"
       ],
       "updated_at": "2026-03-03T13:39:26Z",
-      "download_count": 79,
+      "download_count": 82,
       "app_type": "native",
       "category": "automation"
     },
@@ -2045,7 +2045,7 @@
         "arm"
       ],
       "updated_at": "2026-03-08T08:03:32Z",
-      "download_count": 12,
+      "download_count": 13,
       "app_type": "native",
       "category": "network"
     },
@@ -2066,7 +2066,7 @@
         "arm"
       ],
       "updated_at": "2026-03-03T13:39:10Z",
-      "download_count": 33,
+      "download_count": 37,
       "app_type": "native",
       "category": "automation"
     },
@@ -2234,7 +2234,7 @@
         "arm"
       ],
       "updated_at": "2026-03-12T08:09:57Z",
-      "download_count": 48,
+      "download_count": 52,
       "app_type": "docker",
       "category": "media"
     },
@@ -2255,7 +2255,7 @@
         "arm"
       ],
       "updated_at": "2026-03-12T08:10:07Z",
-      "download_count": 38,
+      "download_count": 40,
       "app_type": "docker",
       "category": "download"
     },
