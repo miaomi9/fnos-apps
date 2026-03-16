@@ -1,0 +1,209 @@
+#!/bin/bash
+#
+# nvidia-driver service-setup
+# Handles the complete lifecycle for NVIDIA GPU driver + nvidia-container-toolkit.
+#
+# Post-install:
+#   1. Check prerequisites (kernel headers, build-essential)
+#   2. Run NVIDIA .run installer with DKMS support
+#   3. Install nvidia-container-toolkit .deb packages
+#   4. Configure Docker GPU runtime (if Docker is available)
+#   5. Set up kernel module auto-loading
+#
+# Pre-uninstall:
+#   1. Stop GPU-using processes
+#   2. Remove nvidia-container-toolkit
+#   3. Run nvidia-uninstall
+#   4. Clean up system configuration
+#
+
+# ============================================================
+# Constants
+# ============================================================
+
+DRIVER_DIR="${TRIM_APPDEST}"
+TOOLKIT_DEB_DIR="${DRIVER_DIR}/nvidia-container-toolkit"
+MODULES_CONF="/etc/modules-load.d/nvidia.conf"
+CDI_SPEC="/etc/cdi/nvidia.yaml"
+
+# ============================================================
+# Post-install: Install NVIDIA driver + container toolkit
+# ============================================================
+
+service_postinst() {
+    install_log "开始安装 NVIDIA 驱动..."
+
+    # --- 1. Check prerequisites ---
+    local kernel_build="/lib/modules/$(uname -r)/build"
+    if [ ! -d "$kernel_build" ]; then
+        error_exit "未找到内核头文件。请先安装: apt install linux-headers-$(uname -r)"
+    fi
+
+    if ! command -v make &>/dev/null || ! command -v gcc &>/dev/null; then
+        error_exit "未找到编译工具。请先安装: apt install build-essential"
+    fi
+
+    # --- 2. Clean up any previous broken NVIDIA installation ---
+    install_log "清理旧的 NVIDIA 安装残留..."
+    fuser -k /dev/nvidia* 2>/dev/null || true
+    rmmod nvidia_uvm nvidia_drm nvidia_modeset nvidia 2>/dev/null || true
+
+    # --- 3. Run NVIDIA driver installer ---
+    local run_file
+    run_file=$(ls "${DRIVER_DIR}"/NVIDIA-Linux-x86_64-*.run 2>/dev/null | head -1)
+    if [ -z "$run_file" ] || [ ! -f "$run_file" ]; then
+        error_exit "未找到 NVIDIA 驱动安装文件 (.run)"
+    fi
+
+    chmod +x "$run_file"
+    install_log "安装 NVIDIA 驱动: $(basename "$run_file")"
+
+    local installer_log
+    installer_log=$(mktemp)
+    if ! "$run_file" --silent --dkms --no-opengl-files > "$installer_log" 2>&1; then
+        while IFS= read -r line; do install_log "  $line"; done < "$installer_log"
+        rm -f "$installer_log"
+        error_exit "NVIDIA 驱动安装失败。请检查内核头文件和编译工具是否完整。"
+    fi
+    while IFS= read -r line; do install_log "  $line"; done < "$installer_log"
+    rm -f "$installer_log"
+
+    # Verify driver installation
+    if ! nvidia-smi &>/dev/null; then
+        error_exit "NVIDIA 驱动安装后验证失败。nvidia-smi 无法执行。"
+    fi
+    install_log "NVIDIA 驱动安装成功: $(nvidia-smi --query-gpu=driver_version --format=csv,noheader 2>/dev/null)"
+
+    # --- 4. Install nvidia-container-toolkit ---
+    if [ -d "$TOOLKIT_DEB_DIR" ]; then
+        install_log "安装 nvidia-container-toolkit..."
+
+        # Install in dependency order
+        dpkg -i "${TOOLKIT_DEB_DIR}"/libnvidia-container1_*.deb 2>&1 | while IFS= read -r line; do
+            install_log "  $line"
+        done
+        dpkg -i "${TOOLKIT_DEB_DIR}"/libnvidia-container-tools_*.deb 2>&1 | while IFS= read -r line; do
+            install_log "  $line"
+        done
+        dpkg -i "${TOOLKIT_DEB_DIR}"/nvidia-container-toolkit-base_*.deb 2>&1 | while IFS= read -r line; do
+            install_log "  $line"
+        done
+        dpkg -i "${TOOLKIT_DEB_DIR}"/nvidia-container-toolkit_1*.deb 2>&1 | while IFS= read -r line; do
+            install_log "  $line"
+        done
+
+        # Verify toolkit installation
+        if command -v nvidia-ctk &>/dev/null; then
+            install_log "nvidia-container-toolkit 安装成功: $(nvidia-ctk --version 2>/dev/null | head -1)"
+        else
+            install_log "WARNING: nvidia-container-toolkit 安装可能不完整"
+        fi
+    else
+        install_log "未找到 nvidia-container-toolkit 安装包，跳过"
+    fi
+
+    # --- 5. Configure Docker GPU runtime ---
+    if command -v docker &>/dev/null && command -v nvidia-ctk &>/dev/null; then
+        install_log "配置 Docker GPU 支持..."
+
+        # Configure nvidia as default Docker runtime
+        nvidia-ctk runtime configure --runtime=docker --set-as-default 2>&1 | while IFS= read -r line; do
+            install_log "  $line"
+        done
+
+        # Generate CDI spec
+        mkdir -p "$(dirname "$CDI_SPEC")"
+        nvidia-ctk cdi generate --output="$CDI_SPEC" 2>&1 | while IFS= read -r line; do
+            install_log "  $line"
+        done
+
+        # Restart Docker to pick up changes
+        systemctl restart docker 2>/dev/null || true
+        install_log "Docker GPU 支持配置完成"
+    else
+        install_log "Docker 未安装或 nvidia-ctk 不可用，跳过 Docker GPU 配置"
+    fi
+
+    # --- 6. Configure kernel module auto-loading ---
+    install_log "配置内核模块自动加载..."
+    cat > "$MODULES_CONF" << 'MODULES_EOF'
+nvidia
+nvidia-uvm
+nvidia-modeset
+nvidia-drm
+MODULES_EOF
+
+    # --- 7. Enable persistence mode ---
+    nvidia-smi -pm 1 2>/dev/null || true
+    install_log "已启用 GPU Persistence Mode"
+
+    install_log "NVIDIA 驱动安装完成"
+}
+
+# ============================================================
+# Post-upgrade: Re-install driver and toolkit
+# ============================================================
+
+service_postupgrade() {
+    install_log "开始升级 NVIDIA 驱动..."
+
+    # Unload old modules
+    fuser -k /dev/nvidia* 2>/dev/null || true
+    sleep 2
+    rmmod nvidia_uvm nvidia_drm nvidia_modeset nvidia 2>/dev/null || true
+
+    # Remove old toolkit (if installed)
+    dpkg -r nvidia-container-toolkit nvidia-container-toolkit-base \
+        libnvidia-container-tools libnvidia-container1 2>/dev/null || true
+
+    # Run old nvidia-uninstall to clean up before installing new version
+    /usr/bin/nvidia-uninstall --silent 2>/dev/null || true
+
+    # Re-run postinst to install new version
+    service_postinst
+}
+
+# ============================================================
+# Pre-uninstall: Remove everything cleanly
+# ============================================================
+
+service_preuninst() {
+    install_log "开始卸载 NVIDIA 驱动..."
+
+    # --- 1. Stop GPU-using processes ---
+    fuser -k /dev/nvidia* 2>/dev/null || true
+    sleep 2
+
+    # --- 2. Unload kernel modules ---
+    rmmod nvidia_uvm nvidia_drm nvidia_modeset nvidia 2>/dev/null || true
+
+    # --- 3. Remove nvidia-container-toolkit ---
+    if dpkg -l nvidia-container-toolkit &>/dev/null 2>&1; then
+        install_log "卸载 nvidia-container-toolkit..."
+        dpkg -r nvidia-container-toolkit nvidia-container-toolkit-base \
+            libnvidia-container-tools libnvidia-container1 2>/dev/null || true
+    fi
+
+    # --- 4. Uninstall NVIDIA driver ---
+    if [ -x /usr/bin/nvidia-uninstall ]; then
+        install_log "卸载 NVIDIA 驱动..."
+        /usr/bin/nvidia-uninstall --silent 2>/dev/null || true
+    fi
+
+    # --- 5. Clean up configuration ---
+    rm -f "$MODULES_CONF"
+    rm -f "$CDI_SPEC"
+
+    # Refresh dynamic linker cache
+    ldconfig 2>/dev/null || true
+
+    install_log "NVIDIA 驱动卸载完成"
+}
+
+# ============================================================
+# Post-stop: No-op (kernel modules stay loaded)
+# ============================================================
+
+service_poststop() {
+    :
+}

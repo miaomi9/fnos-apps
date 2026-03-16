@@ -1,0 +1,57 @@
+#!/bin/bash
+#
+# nvidia-driver: status-only cmd/main
+# No daemon to manage — kernel modules are loaded at boot.
+# start/stop are no-ops; status checks nvidia-smi availability.
+#
+
+COMMON=$(dirname $0)"/common"
+if [ -r "${COMMON}" ]; then
+    . "${COMMON}"
+fi
+
+SVC_SETUP=$(dirname $0)"/service-setup"
+if [ -r "${SVC_SETUP}" ]; then
+    . "${SVC_SETUP}"
+fi
+
+is_driver_loaded() {
+    # Check if NVIDIA kernel module is loaded
+    if ! lsmod | grep -q "^nvidia "; then
+        return 1
+    fi
+    # Check if nvidia-smi can query the GPU
+    if ! nvidia-smi --query-gpu=name --format=csv,noheader &>/dev/null; then
+        return 1
+    fi
+    return 0
+}
+
+case $1 in
+start)
+    # Kernel modules are loaded at boot via /etc/modules-load.d/nvidia.conf
+    # Attempt to load them now if not already loaded
+    if ! is_driver_loaded; then
+        modprobe nvidia 2>/dev/null
+        modprobe nvidia-uvm 2>/dev/null
+        modprobe nvidia-modeset 2>/dev/null
+        modprobe nvidia-drm 2>/dev/null
+        nvidia-smi -pm 1 2>/dev/null
+    fi
+    exit 0
+    ;;
+stop)
+    # Cannot unload kernel modules while GPU may be in use
+    exit 0
+    ;;
+status)
+    if is_driver_loaded; then
+        exit 0
+    else
+        exit 3
+    fi
+    ;;
+*)
+    exit 1
+    ;;
+esac
