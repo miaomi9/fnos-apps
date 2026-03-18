@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-03-17T08:11:45Z",
+  "generated_at": "2026-03-18T08:10:10Z",
   "source": {
     "name": "conversun/fnos-apps",
     "url": "https://github.com/conversun/fnos-apps"
@@ -75,9 +75,9 @@
       "file_prefix": "ani-rss",
       "display_name": "ANI-RSS",
       "description": "动漫 RSS 自动追番、订阅、下载和刮削工具，支持自动识别季数集数和重命名。默认用户名admin，密码admin。",
-      "version": "3.0.12",
-      "fpk_version": "3.0.12",
-      "release_tag": "ani-rss/v3.0.12",
+      "version": "3.0.13",
+      "fpk_version": "3.0.13",
+      "release_tag": "ani-rss/v3.0.13",
       "service_port": 7789,
       "homepage_url": "https://github.com/wushuo894/ani-rss",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/ani-rss/fnos/ICON_256.PNG",
@@ -85,7 +85,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-17T08:10:56Z",
+      "updated_at": "2026-03-18T08:09:55Z",
       "download_count": 102,
       "app_type": "docker",
       "category": "content"
@@ -276,7 +276,7 @@
         "arm"
       ],
       "updated_at": "2026-03-15T09:37:08Z",
-      "download_count": 98,
+      "download_count": 111,
       "app_type": "docker",
       "category": "browser"
     },
@@ -297,7 +297,7 @@
         "arm"
       ],
       "updated_at": "2026-03-15T09:37:03Z",
-      "download_count": 14,
+      "download_count": 17,
       "app_type": "docker",
       "category": "system"
     },
@@ -339,7 +339,7 @@
         "arm"
       ],
       "updated_at": "2026-03-15T09:36:18Z",
-      "download_count": 22,
+      "download_count": 24,
       "app_type": "native",
       "category": "download"
     },
@@ -360,7 +360,7 @@
         "arm"
       ],
       "updated_at": "2026-03-15T09:37:16Z",
-      "download_count": 13,
+      "download_count": 16,
       "app_type": "docker",
       "category": "download"
     },
@@ -402,7 +402,7 @@
         "arm"
       ],
       "updated_at": "2026-03-15T09:35:30Z",
-      "download_count": 19,
+      "download_count": 23,
       "app_type": "docker",
       "category": "system"
     },
@@ -444,7 +444,7 @@
         "arm"
       ],
       "updated_at": "2026-03-15T09:37:05Z",
-      "download_count": 6,
+      "download_count": 7,
       "app_type": "native",
       "category": "network"
     },
@@ -475,9 +475,9 @@
       "file_prefix": "ente",
       "display_name": "Ente",
       "description": "端到端加密照片备份和存储服务，Google Photos 的隐私替代方案。",
-      "version": "photos-v1.3.22",
-      "fpk_version": "photos-v1.3.22-r1",
-      "release_tag": "ente/vphotos-v1.3.22-r1",
+      "version": "photos-v1.3.24",
+      "fpk_version": "photos-v1.3.24",
+      "release_tag": "ente/vphotos-v1.3.24",
       "service_port": 8510,
       "homepage_url": "https://ente.io",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/ente/fnos/ICON_256.PNG",
@@ -485,7 +485,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-15T09:37:06Z",
+      "updated_at": "2026-03-18T08:09:57Z",
       "download_count": 31,
       "app_type": "docker",
       "category": "media",
@@ -550,7 +550,7 @@
         "arm"
       ],
       "updated_at": "2026-03-15T09:36:39Z",
-      "download_count": 167,
+      "download_count": 185,
       "app_type": "docker",
       "category": "browser"
     },
@@ -970,7 +970,7 @@
         "arm"
       ],
       "updated_at": "2026-03-15T09:37:02Z",
-      "download_count": 16,
+      "download_count": 18,
       "app_type": "docker",
       "category": "media"
     },
@@ -1224,7 +1224,7 @@
         "arm"
       ],
       "updated_at": "2026-03-15T09:37:00Z",
-      "download_count": 2,
+      "download_count": 3,
       "app_type": "docker",
       "category": "ai"
     },
@@ -1604,7 +1604,7 @@
         "arm"
       ],
       "updated_at": "2026-03-16T01:17:24Z",
-      "download_count": 12,
+      "download_count": 13,
       "app_type": "native",
       "category": "system"
     },
@@ -1614,9 +1614,9 @@
       "file_prefix": "ollama",
       "display_name": "Ollama",
       "description": "本地大语言模型运行引擎，支持 Llama、Mistral、Gemma 等开源模型。",
-      "version": "0.18.0",
-      "fpk_version": "0.18.0-r2",
-      "release_tag": "ollama/v0.18.0-r2",
+      "version": "0.18.1",
+      "fpk_version": "0.18.1",
+      "release_tag": "ollama/v0.18.1",
       "service_port": 11434,
       "homepage_url": "https://github.com/ollama/ollama",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/ollama/fnos/ICON_256.PNG",
@@ -1624,8 +1624,8 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-15T09:36:02Z",
-      "download_count": 37,
+      "updated_at": "2026-03-18T08:09:51Z",
+      "download_count": 43,
       "app_type": "docker",
       "category": "ai"
     },
@@ -1667,7 +1667,7 @@
         "arm"
       ],
       "updated_at": "2026-03-15T09:36:03Z",
-      "download_count": 21,
+      "download_count": 22,
       "app_type": "docker",
       "category": "ai"
     },
@@ -1919,7 +1919,7 @@
         "arm"
       ],
       "updated_at": "2026-03-03T13:39:10Z",
-      "download_count": 58,
+      "download_count": 59,
       "app_type": "native",
       "category": "automation"
     },
@@ -1950,9 +1950,9 @@
       "file_prefix": "reactive-resume",
       "display_name": "Reactive Resume",
       "description": "在线简历制作工具，支持多种模板和实时预览。",
-      "version": "v5.0.11",
-      "fpk_version": "v5.0.11-r1",
-      "release_tag": "reactive-resume/vv5.0.11-r1",
+      "version": "v5.0.12",
+      "fpk_version": "v5.0.12",
+      "release_tag": "reactive-resume/vv5.0.12",
       "service_port": 3200,
       "homepage_url": "https://github.com/amruthpillai/reactive-resume",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/reactive-resume/fnos/ICON_256.PNG",
@@ -1960,7 +1960,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-15T09:36:53Z",
+      "updated_at": "2026-03-18T08:09:57Z",
       "download_count": 16,
       "app_type": "docker",
       "category": "content"
@@ -2003,7 +2003,7 @@
         "arm"
       ],
       "updated_at": "2026-03-17T08:11:05Z",
-      "download_count": 12,
+      "download_count": 17,
       "app_type": "docker",
       "category": "system"
     },
@@ -2045,7 +2045,7 @@
         "arm"
       ],
       "updated_at": "2026-03-15T09:37:03Z",
-      "download_count": 6,
+      "download_count": 16,
       "app_type": "docker",
       "category": "media"
     },
@@ -2066,7 +2066,7 @@
         "arm"
       ],
       "updated_at": "2026-03-15T09:37:04Z",
-      "download_count": 24,
+      "download_count": 32,
       "app_type": "native",
       "category": "network"
     },
@@ -2171,7 +2171,7 @@
         "arm"
       ],
       "updated_at": "2026-03-15T09:36:49Z",
-      "download_count": 5,
+      "download_count": 6,
       "app_type": "docker",
       "category": "system"
     },
@@ -2244,9 +2244,9 @@
       "file_prefix": "tinymediamanager",
       "display_name": "tinyMediaManager",
       "description": "影视文件元数据管理工具，支持从 TheMovieDB、IMDb 刮削元数据，为 Kodi、Emby、Jellyfin、Plex 创建 NFO 文件，自动重命名和整理。含内置 JRE，通过虚拟显示运行。",
-      "version": "5.2.8",
-      "fpk_version": "5.2.8-r1",
-      "release_tag": "tinymediamanager/v5.2.8-r1",
+      "version": "5.2.9",
+      "fpk_version": "5.2.9",
+      "release_tag": "tinymediamanager/v5.2.9",
       "service_port": 5800,
       "homepage_url": "https://www.tinymediamanager.org",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/tinymediamanager/fnos/ICON_256.PNG",
@@ -2254,7 +2254,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-15T09:36:17Z",
+      "updated_at": "2026-03-18T08:09:53Z",
       "download_count": 52,
       "app_type": "docker",
       "category": "media"
@@ -2266,8 +2266,8 @@
       "display_name": "Transmission",
       "description": "Transmission 是一个轻量级的 BitTorrent 客户端，以简洁高效著称，支持 Web 远程管理。",
       "version": "4.1.1",
-      "fpk_version": "4.1.1-r1-ls334-r1",
-      "release_tag": "transmission/v4.1.1-r1-ls334-r1",
+      "fpk_version": "4.1.1-r1-ls335",
+      "release_tag": "transmission/v4.1.1-r1-ls335",
       "service_port": 9091,
       "homepage_url": "https://transmissionbt.com",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/transmission/fnos/ICON_256.PNG",
@@ -2275,7 +2275,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-15T09:36:00Z",
+      "updated_at": "2026-03-18T08:09:52Z",
       "download_count": 41,
       "app_type": "docker",
       "category": "download"
