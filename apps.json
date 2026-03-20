@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-03-19T08:09:27Z",
+  "generated_at": "2026-03-20T08:08:57Z",
   "source": {
     "name": "conversun/fnos-apps",
     "url": "https://github.com/conversun/fnos-apps"
@@ -75,9 +75,9 @@
       "file_prefix": "ani-rss",
       "display_name": "ANI-RSS",
       "description": "动漫 RSS 自动追番、订阅、下载和刮削工具，支持自动识别季数集数和重命名。默认用户名admin，密码admin。",
-      "version": "3.0.14",
-      "fpk_version": "3.0.14",
-      "release_tag": "ani-rss/v3.0.14",
+      "version": "3.0.15",
+      "fpk_version": "3.0.15",
+      "release_tag": "ani-rss/v3.0.15",
       "service_port": 7789,
       "homepage_url": "https://github.com/wushuo894/ani-rss",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/ani-rss/fnos/ICON_256.PNG",
@@ -85,7 +85,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-19T08:08:54Z",
+      "updated_at": "2026-03-20T08:08:13Z",
       "download_count": 102,
       "app_type": "docker",
       "category": "content"
@@ -118,9 +118,9 @@
       "file_prefix": "audiobookshelf",
       "display_name": "Audiobookshelf",
       "description": "自托管的有声书和播客服务器，支持多用户管理、进度同步和丰富的元数据管理。",
-      "version": "2.33.0",
-      "fpk_version": "2.33.0-r2",
-      "release_tag": "audiobookshelf/v2.33.0-r2",
+      "version": "2.33.1",
+      "fpk_version": "2.33.1",
+      "release_tag": "audiobookshelf/v2.33.1",
       "service_port": 13378,
       "homepage_url": "https://www.audiobookshelf.org",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/audiobookshelf/fnos/ICON_256.PNG",
@@ -128,7 +128,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-18T16:06:46Z",
+      "updated_at": "2026-03-20T08:08:17Z",
       "download_count": 19,
       "app_type": "docker",
       "category": "content"
@@ -213,7 +213,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:06:04Z",
-      "download_count": 6,
+      "download_count": 7,
       "app_type": "native",
       "category": "media"
     },
@@ -391,9 +391,9 @@
       "file_prefix": "dpanel",
       "display_name": "DPanel",
       "description": "轻量级 Docker 可视化管理面板，支持容器管理和镜像操作。",
-      "version": "1.9.3.1",
-      "fpk_version": "1.9.3.1-r2",
-      "release_tag": "dpanel/v1.9.3.1-r2",
+      "version": "1.10.0",
+      "fpk_version": "1.10.0",
+      "release_tag": "dpanel/v1.10.0",
       "service_port": 8807,
       "homepage_url": "https://github.com/donknap/dpanel",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/dpanel/fnos/ICON_256.PNG",
@@ -401,7 +401,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-18T16:07:18Z",
+      "updated_at": "2026-03-20T08:08:20Z",
       "download_count": 25,
       "app_type": "docker",
       "category": "system"
@@ -486,7 +486,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:07:50Z",
-      "download_count": 33,
+      "download_count": 46,
       "app_type": "docker",
       "category": "media",
       "post_install_note": "首次启动会初始化 PostgreSQL 和 MinIO，请耐心等待。"
@@ -823,7 +823,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:06:18Z",
-      "download_count": 9,
+      "download_count": 10,
       "app_type": "docker",
       "category": "system"
     },
@@ -833,9 +833,9 @@
       "file_prefix": "immich",
       "display_name": "Immich",
       "description": "自托管照片和视频备份方案,支持人脸识别和智能搜索。",
-      "version": "2.5.6",
-      "fpk_version": "2.5.6-r2",
-      "release_tag": "immich/v2.5.6-r2",
+      "version": "2.6.1",
+      "fpk_version": "2.6.1",
+      "release_tag": "immich/v2.6.1",
       "service_port": 2283,
       "homepage_url": "https://github.com/immich-app/immich",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/immich/fnos/ICON_256.PNG",
@@ -843,7 +843,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-18T16:06:12Z",
+      "updated_at": "2026-03-20T08:08:12Z",
       "download_count": 65,
       "app_type": "docker",
       "category": "media"
@@ -875,9 +875,9 @@
       "file_prefix": "jackett",
       "display_name": "Jackett",
       "description": "Torrent 索引器代理，为 Sonarr/Radarr 等工具提供统一的搜索接口。",
-      "version": "0.24.1412",
-      "fpk_version": "0.24.1412",
-      "release_tag": "jackett/v0.24.1412",
+      "version": "0.24.1419",
+      "fpk_version": "0.24.1419",
+      "release_tag": "jackett/v0.24.1419",
       "service_port": 9117,
       "homepage_url": "https://github.com/Jackett/Jackett",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/jackett/fnos/ICON_256.PNG",
@@ -885,7 +885,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-19T08:09:13Z",
+      "updated_at": "2026-03-20T08:08:28Z",
       "download_count": 18,
       "app_type": "native",
       "category": "automation"
@@ -1139,7 +1139,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:06:36Z",
-      "download_count": 12,
+      "download_count": 16,
       "app_type": "docker",
       "category": "ai"
     },
@@ -1414,7 +1414,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:57:14Z",
-      "download_count": 42,
+      "download_count": 75,
       "app_type": "docker",
       "category": "ai"
     },
@@ -1625,7 +1625,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:07:39Z",
-      "download_count": 18,
+      "download_count": 19,
       "app_type": "native",
       "category": "system"
     },
@@ -1814,7 +1814,7 @@
         "arm"
       ],
       "updated_at": "2026-03-18T16:57:25Z",
-      "download_count": 26,
+      "download_count": 45,
       "app_type": "native",
       "category": "ai"
     },
@@ -1992,9 +1992,9 @@
       "file_prefix": "reactive-resume",
       "display_name": "Reactive Resume",
       "description": "在线简历制作工具，支持多种模板和实时预览。",
-      "version": "v5.0.12",
-      "fpk_version": "v5.0.12-r1",
-      "release_tag": "reactive-resume/vv5.0.12-r1",
+      "version": "v5.0.13",
+      "fpk_version": "v5.0.13",
+      "release_tag": "reactive-resume/vv5.0.13",
       "service_port": 3200,
       "homepage_url": "https://github.com/amruthpillai/reactive-resume",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/reactive-resume/fnos/ICON_256.PNG",
@@ -2002,7 +2002,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-18T16:07:01Z",
+      "updated_at": "2026-03-20T08:08:11Z",
       "download_count": 16,
       "app_type": "docker",
       "category": "content"
@@ -2118,9 +2118,9 @@
       "file_prefix": "sonarr",
       "display_name": "Sonarr",
       "description": "电视剧自动化管理工具，自动搜索、下载和管理剧集",
-      "version": "4.0.16.2944",
-      "fpk_version": "4.0.16.2944-r2",
-      "release_tag": "sonarr/v4.0.16.2944-r2",
+      "version": "4.0.17.2952",
+      "fpk_version": "4.0.17.2952",
+      "release_tag": "sonarr/v4.0.17.2952",
       "service_port": 8989,
       "homepage_url": "https://sonarr.tv",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/sonarr/fnos/ICON_256.PNG",
@@ -2128,7 +2128,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-18T16:06:56Z",
+      "updated_at": "2026-03-20T08:08:41Z",
       "download_count": 38,
       "app_type": "native",
       "category": "automation"
@@ -2139,9 +2139,9 @@
       "file_prefix": "stirling-pdf",
       "display_name": "Stirling-PDF",
       "description": "功能强大的本地 PDF 工具箱，支持合并、拆分、OCR 等操作",
-      "version": "2.7.2",
-      "fpk_version": "2.7.2-r2",
-      "release_tag": "stirling-pdf/v2.7.2-r2",
+      "version": "2.7.3",
+      "fpk_version": "2.7.3",
+      "release_tag": "stirling-pdf/v2.7.3",
       "service_port": 18080,
       "homepage_url": "https://stirlingpdf.io",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/stirling-pdf/fnos/ICON_256.PNG",
@@ -2149,7 +2149,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-18T16:06:41Z",
+      "updated_at": "2026-03-20T08:08:16Z",
       "download_count": 64,
       "app_type": "docker",
       "category": "system"
@@ -2244,9 +2244,9 @@
       "file_prefix": "tailscale",
       "display_name": "Tailscale",
       "description": "Tailscale VPN 客户端，零配置组建安全私有网络，支持远程访问 NAS。",
-      "version": "1.96.2",
-      "fpk_version": "1.96.2",
-      "release_tag": "tailscale/v1.96.2",
+      "version": "1.96.3",
+      "fpk_version": "1.96.3",
+      "release_tag": "tailscale/v1.96.3",
       "service_port": 8088,
       "homepage_url": "https://github.com/tailscale/tailscale",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/tailscale/fnos/ICON_256.PNG",
@@ -2254,7 +2254,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-19T08:08:54Z",
+      "updated_at": "2026-03-20T08:08:12Z",
       "download_count": 10,
       "app_type": "docker",
       "category": "network"
@@ -2454,9 +2454,9 @@
       "file_prefix": "zeroclaw",
       "display_name": "ZeroClaw",
       "description": "轻量级 AI 智能体运行时，Rust 编写，<5MB 内存占用，支持多模型多通道自主智能体工作流",
-      "version": "0.5.0",
-      "fpk_version": "0.5.0",
-      "release_tag": "zeroclaw/v0.5.0",
+      "version": "0.5.2",
+      "fpk_version": "0.5.2",
+      "release_tag": "zeroclaw/v0.5.2",
       "service_port": 42617,
       "homepage_url": "https://github.com/zeroclaw-labs/zeroclaw",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/zeroclaw/fnos/ICON_256.PNG",
@@ -2464,8 +2464,8 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-18T16:07:26Z",
-      "download_count": 5,
+      "updated_at": "2026-03-20T08:08:19Z",
+      "download_count": 21,
       "app_type": "native",
       "category": "ai"
     }
