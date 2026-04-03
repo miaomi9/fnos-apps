@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-04-02T08:19:48Z",
+  "generated_at": "2026-04-03T08:14:14Z",
   "source": {
     "name": "conversun/fnos-apps",
     "url": "https://github.com/conversun/fnos-apps"
@@ -23,7 +23,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:25:04Z",
-      "download_count": 16,
+      "download_count": 18,
       "app_type": "docker",
       "category": "system"
     },
@@ -44,7 +44,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:24:42Z",
-      "download_count": 17,
+      "download_count": 19,
       "app_type": "docker",
       "category": "system"
     },
@@ -107,7 +107,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:24:47Z",
-      "download_count": 27,
+      "download_count": 28,
       "app_type": "docker",
       "category": "content",
       "post_install_note": "AppFlowy Cloud 需要配合 AppFlowy 客户端使用。"
@@ -402,7 +402,7 @@
         "arm"
       ],
       "updated_at": "2026-04-01T08:23:32Z",
-      "download_count": 65,
+      "download_count": 71,
       "app_type": "docker",
       "category": "ai"
     },
@@ -444,7 +444,7 @@
         "arm"
       ],
       "updated_at": "2026-03-24T08:11:21Z",
-      "download_count": 97,
+      "download_count": 98,
       "app_type": "docker",
       "category": "system"
     },
@@ -486,7 +486,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:25:19Z",
-      "download_count": 11,
+      "download_count": 13,
       "app_type": "native",
       "category": "network"
     },
@@ -592,7 +592,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:25:14Z",
-      "download_count": 235,
+      "download_count": 245,
       "app_type": "docker",
       "category": "browser"
     },
@@ -613,7 +613,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:24:45Z",
-      "download_count": 1417,
+      "download_count": 1484,
       "app_type": "native",
       "category": "store"
     },
@@ -844,7 +844,7 @@
         "arm"
       ],
       "updated_at": "2026-04-02T08:17:25Z",
-      "download_count": 63,
+      "download_count": 82,
       "app_type": "docker",
       "category": "system"
     },
@@ -865,7 +865,7 @@
         "arm"
       ],
       "updated_at": "2026-04-02T08:17:20Z",
-      "download_count": 21,
+      "download_count": 31,
       "app_type": "docker",
       "category": "system"
     },
@@ -886,7 +886,7 @@
         "arm"
       ],
       "updated_at": "2026-03-27T08:11:35Z",
-      "download_count": 118,
+      "download_count": 119,
       "app_type": "docker",
       "category": "media"
     },
@@ -907,7 +907,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:25:12Z",
-      "download_count": 21,
+      "download_count": 23,
       "app_type": "docker",
       "category": "system"
     },
@@ -917,9 +917,9 @@
       "file_prefix": "jackett",
       "display_name": "Jackett",
       "description": "Torrent 索引器代理，为 Sonarr/Radarr 等工具提供统一的搜索接口。",
-      "version": "0.24.1526",
-      "fpk_version": "0.24.1526",
-      "release_tag": "jackett/v0.24.1526",
+      "version": "0.24.1528",
+      "fpk_version": "0.24.1528",
+      "release_tag": "jackett/v0.24.1528",
       "service_port": 9117,
       "homepage_url": "https://github.com/Jackett/Jackett",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/jackett/fnos/ICON_256.PNG",
@@ -927,7 +927,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-04-02T08:17:45Z",
+      "updated_at": "2026-04-03T08:13:42Z",
       "download_count": 57,
       "app_type": "native",
       "category": "automation"
@@ -949,7 +949,7 @@
         "arm"
       ],
       "updated_at": "2026-04-01T08:24:18Z",
-      "download_count": 110,
+      "download_count": 144,
       "app_type": "native",
       "category": "media"
     },
@@ -980,9 +980,9 @@
       "file_prefix": "jellystat",
       "display_name": "Jellystat",
       "description": "Jellyfin 媒体服务器的使用统计和监控面板。",
-      "version": "1.1.8",
-      "fpk_version": "1.1.8-r3",
-      "release_tag": "jellystat/v1.1.8-r3",
+      "version": "1.1.9",
+      "fpk_version": "1.1.9",
+      "release_tag": "jellystat/v1.1.9",
       "service_port": 3004,
       "homepage_url": "https://github.com/CyferShepard/Jellystat",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/jellystat/fnos/ICON_256.PNG",
@@ -990,7 +990,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-26T16:24:40Z",
+      "updated_at": "2026-04-03T08:13:31Z",
       "download_count": 8,
       "app_type": "docker",
       "category": "media"
@@ -1096,7 +1096,7 @@
         "arm"
       ],
       "updated_at": "2026-03-28T08:08:07Z",
-      "download_count": 35,
+      "download_count": 37,
       "app_type": "docker",
       "category": "media"
     },
@@ -1170,9 +1170,9 @@
       "file_prefix": "localai",
       "display_name": "LocalAI",
       "description": "本地 AI 模型推理服务器，兼容 OpenAI API 接口。",
-      "version": "4.0.0",
-      "fpk_version": "4.0.0-r3",
-      "release_tag": "localai/v4.0.0-r3",
+      "version": "4.1.0",
+      "fpk_version": "4.1.0",
+      "release_tag": "localai/v4.1.0",
       "service_port": 8185,
       "homepage_url": "https://localai.io",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/localai/fnos/ICON_256.PNG",
@@ -1180,7 +1180,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-26T16:25:03Z",
+      "updated_at": "2026-04-03T08:13:30Z",
       "download_count": 28,
       "app_type": "docker",
       "category": "ai"
@@ -1392,7 +1392,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:22:59Z",
-      "download_count": 21,
+      "download_count": 23,
       "app_type": "native",
       "category": "network"
     },
@@ -1402,9 +1402,9 @@
       "file_prefix": "moviepilot",
       "display_name": "MoviePilot",
       "description": "影视自动化管理工具,支持自动订阅、下载、整理和通知。首次启动通过 Web UI 配置。",
-      "version": "2.9.23",
-      "fpk_version": "2.9.23",
-      "release_tag": "moviepilot/v2.9.23",
+      "version": "2.9.25",
+      "fpk_version": "2.9.25",
+      "release_tag": "moviepilot/v2.9.25",
       "service_port": 3000,
       "homepage_url": "https://github.com/jxxghp/MoviePilot",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/moviepilot/fnos/ICON_256.PNG",
@@ -1412,7 +1412,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-31T08:18:50Z",
+      "updated_at": "2026-04-03T08:13:36Z",
       "download_count": 133,
       "app_type": "docker",
       "category": "content",
@@ -1435,7 +1435,7 @@
         "arm"
       ],
       "updated_at": "2026-03-31T08:18:53Z",
-      "download_count": 37,
+      "download_count": 43,
       "app_type": "docker",
       "category": "system"
     },
@@ -1477,7 +1477,7 @@
         "arm"
       ],
       "updated_at": "2026-04-01T08:23:34Z",
-      "download_count": 25,
+      "download_count": 31,
       "app_type": "native",
       "category": "media"
     },
@@ -1487,9 +1487,9 @@
       "file_prefix": "netbird",
       "display_name": "NetBird",
       "description": "零信任 VPN 管理平台，提供简单的私有网络组建。",
-      "version": "0.67.2",
-      "fpk_version": "0.67.2",
-      "release_tag": "netbird/v0.67.2",
+      "version": "0.67.3",
+      "fpk_version": "0.67.3",
+      "release_tag": "netbird/v0.67.3",
       "service_port": 8820,
       "homepage_url": "https://netbird.io",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/netbird/fnos/ICON_256.PNG",
@@ -1497,7 +1497,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-04-02T08:17:21Z",
+      "updated_at": "2026-04-03T08:13:34Z",
       "download_count": 24,
       "app_type": "docker",
       "category": "network",
@@ -1530,9 +1530,9 @@
       "file_prefix": "nextcloud",
       "display_name": "Nextcloud",
       "description": "开源私有云存储平台,支持文件同步、在线文档协作和日历联系人管理。",
-      "version": "32.0.8",
-      "fpk_version": "32.0.8",
-      "release_tag": "nextcloud/v32.0.8",
+      "version": "33.0.2",
+      "fpk_version": "33.0.2",
+      "release_tag": "nextcloud/v33.0.2",
       "service_port": 8082,
       "homepage_url": "https://nextcloud.com",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/nextcloud/fnos/ICON_256.PNG",
@@ -1540,7 +1540,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-04-02T08:17:20Z",
+      "updated_at": "2026-04-03T08:13:30Z",
       "download_count": 18,
       "app_type": "docker",
       "category": "content"
@@ -1583,7 +1583,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:25:01Z",
-      "download_count": 15,
+      "download_count": 18,
       "app_type": "docker",
       "category": "system"
     },
@@ -1667,7 +1667,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:25:33Z",
-      "download_count": 116,
+      "download_count": 134,
       "app_type": "native",
       "category": "system"
     },
@@ -1677,9 +1677,9 @@
       "file_prefix": "ollama",
       "display_name": "Ollama",
       "description": "本地大语言模型运行引擎，支持 Llama、Mistral、Gemma 等开源模型。",
-      "version": "0.19.0",
-      "fpk_version": "0.19.0",
-      "release_tag": "ollama/v0.19.0",
+      "version": "0.20.0",
+      "fpk_version": "0.20.0",
+      "release_tag": "ollama/v0.20.0",
       "service_port": 11434,
       "homepage_url": "https://github.com/ollama/ollama",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/ollama/fnos/ICON_256.PNG",
@@ -1687,7 +1687,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-30T08:27:23Z",
+      "updated_at": "2026-04-03T08:13:33Z",
       "download_count": 159,
       "app_type": "docker",
       "category": "ai"
@@ -1730,7 +1730,7 @@
         "arm"
       ],
       "updated_at": "2026-03-27T08:11:37Z",
-      "download_count": 134,
+      "download_count": 137,
       "app_type": "docker",
       "category": "ai"
     },
@@ -1845,9 +1845,9 @@
       "file_prefix": "picoclaw",
       "display_name": "PicoClaw",
       "description": "超轻量 AI 智能体框架，Go 编写，10MB 内存占用，支持多模型多通道智能自动化",
-      "version": "0.2.4",
-      "fpk_version": "0.2.4-r1",
-      "release_tag": "picoclaw/v0.2.4-r1",
+      "version": "0.2.5",
+      "fpk_version": "0.2.5",
+      "release_tag": "picoclaw/v0.2.5",
       "service_port": 18790,
       "homepage_url": "https://github.com/sipeed/picoclaw",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/picoclaw/fnos/ICON_256.PNG",
@@ -1855,8 +1855,8 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-26T16:23:28Z",
-      "download_count": 149,
+      "updated_at": "2026-04-03T08:13:30Z",
+      "download_count": 156,
       "app_type": "native",
       "category": "ai"
     },
@@ -1908,9 +1908,9 @@
       "file_prefix": "prometheus",
       "display_name": "Prometheus",
       "description": "时序数据库和监控系统，支持灵活的查询语言和告警规则。",
-      "version": "3.10.0",
-      "fpk_version": "3.10.0-r3",
-      "release_tag": "prometheus/v3.10.0-r3",
+      "version": "3.11.0",
+      "fpk_version": "3.11.0",
+      "release_tag": "prometheus/v3.11.0",
       "service_port": 9090,
       "homepage_url": "https://prometheus.io",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/prometheus/fnos/ICON_256.PNG",
@@ -1918,7 +1918,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-26T16:23:34Z",
+      "updated_at": "2026-04-03T08:13:56Z",
       "download_count": 8,
       "app_type": "native",
       "category": "system"
@@ -1982,7 +1982,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:24:51Z",
-      "download_count": 128,
+      "download_count": 132,
       "app_type": "native",
       "category": "download"
     },
@@ -2087,7 +2087,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:25:03Z",
-      "download_count": 20,
+      "download_count": 22,
       "app_type": "docker",
       "category": "system"
     },
@@ -2181,9 +2181,9 @@
       "file_prefix": "stirling-pdf",
       "display_name": "Stirling-PDF",
       "description": "功能强大的本地 PDF 工具箱，支持合并、拆分、OCR 等操作",
-      "version": "2.8.0",
-      "fpk_version": "2.8.0-r1",
-      "release_tag": "stirling-pdf/v2.8.0-r1",
+      "version": "2.9.0",
+      "fpk_version": "2.9.0",
+      "release_tag": "stirling-pdf/v2.9.0",
       "service_port": 18080,
       "homepage_url": "https://stirlingpdf.io",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/stirling-pdf/fnos/ICON_256.PNG",
@@ -2191,7 +2191,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-26T16:24:34Z",
+      "updated_at": "2026-04-03T08:13:32Z",
       "download_count": 76,
       "app_type": "docker",
       "category": "system"
@@ -2297,7 +2297,7 @@
         "arm"
       ],
       "updated_at": "2026-03-28T08:08:16Z",
-      "download_count": 53,
+      "download_count": 55,
       "app_type": "docker",
       "category": "network"
     },
@@ -2339,7 +2339,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:24:16Z",
-      "download_count": 52,
+      "download_count": 54,
       "app_type": "docker",
       "category": "media"
     },
@@ -2360,7 +2360,7 @@
         "arm"
       ],
       "updated_at": "2026-04-01T08:23:31Z",
-      "download_count": 49,
+      "download_count": 51,
       "app_type": "docker",
       "category": "download"
     },
@@ -2423,7 +2423,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:25:11Z",
-      "download_count": 45,
+      "download_count": 56,
       "app_type": "docker",
       "category": "network"
     },
