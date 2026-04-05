@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-04-04T08:09:04Z",
+  "generated_at": "2026-04-05T08:08:53Z",
   "source": {
     "name": "conversun/fnos-apps",
     "url": "https://github.com/conversun/fnos-apps"
@@ -65,7 +65,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:25:11Z",
-      "download_count": 20,
+      "download_count": 21,
       "app_type": "native",
       "category": "download"
     },
@@ -339,7 +339,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:24:54Z",
-      "download_count": 31,
+      "download_count": 36,
       "app_type": "native",
       "category": "download"
     },
@@ -402,7 +402,7 @@
         "arm"
       ],
       "updated_at": "2026-04-01T08:23:32Z",
-      "download_count": 79,
+      "download_count": 87,
       "app_type": "docker",
       "category": "ai"
     },
@@ -444,7 +444,7 @@
         "arm"
       ],
       "updated_at": "2026-03-24T08:11:21Z",
-      "download_count": 100,
+      "download_count": 104,
       "app_type": "docker",
       "category": "system"
     },
@@ -486,7 +486,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:25:19Z",
-      "download_count": 14,
+      "download_count": 15,
       "app_type": "native",
       "category": "network"
     },
@@ -560,9 +560,9 @@
       "file_prefix": "filebrowser",
       "display_name": "FileBrowser",
       "description": "轻量级网页文件管理器，支持文件上传、下载和分享",
-      "version": "2.62.2",
-      "fpk_version": "2.62.2",
-      "release_tag": "filebrowser/v2.62.2",
+      "version": "2.63.1",
+      "fpk_version": "2.63.1",
+      "release_tag": "filebrowser/v2.63.1",
       "service_port": 8082,
       "homepage_url": "https://filebrowser.org",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/filebrowser/fnos/ICON_256.PNG",
@@ -570,7 +570,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-29T08:07:56Z",
+      "updated_at": "2026-04-05T08:08:16Z",
       "download_count": 91,
       "app_type": "native",
       "category": "download"
@@ -592,7 +592,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:25:14Z",
-      "download_count": 254,
+      "download_count": 263,
       "app_type": "docker",
       "category": "browser"
     },
@@ -613,7 +613,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:24:45Z",
-      "download_count": 1567,
+      "download_count": 1629,
       "app_type": "native",
       "category": "store"
     },
@@ -802,7 +802,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:24:45Z",
-      "download_count": 11,
+      "download_count": 12,
       "app_type": "native",
       "category": "network"
     },
@@ -812,9 +812,9 @@
       "file_prefix": "homarr",
       "display_name": "Homarr",
       "description": "可视化应用仪表盘，深度集成 *arr 套件状态展示",
-      "version": "1.58.0",
-      "fpk_version": "1.58.0",
-      "release_tag": "homarr/v1.58.0",
+      "version": "1.58.1",
+      "fpk_version": "1.58.1",
+      "release_tag": "homarr/v1.58.1",
       "service_port": 7575,
       "homepage_url": "https://homarr.dev",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/homarr/fnos/ICON_256.PNG",
@@ -822,7 +822,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-04-04T08:08:28Z",
+      "updated_at": "2026-04-05T08:08:13Z",
       "download_count": 27,
       "app_type": "docker",
       "category": "system"
@@ -844,7 +844,7 @@
         "arm"
       ],
       "updated_at": "2026-04-04T08:08:35Z",
-      "download_count": 82,
+      "download_count": 84,
       "app_type": "docker",
       "category": "system"
     },
@@ -865,7 +865,7 @@
         "arm"
       ],
       "updated_at": "2026-04-02T08:17:20Z",
-      "download_count": 32,
+      "download_count": 40,
       "app_type": "docker",
       "category": "system"
     },
@@ -886,7 +886,7 @@
         "arm"
       ],
       "updated_at": "2026-03-27T08:11:35Z",
-      "download_count": 119,
+      "download_count": 122,
       "app_type": "docker",
       "category": "media"
     },
@@ -907,7 +907,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:25:12Z",
-      "download_count": 23,
+      "download_count": 26,
       "app_type": "docker",
       "category": "system"
     },
@@ -917,9 +917,9 @@
       "file_prefix": "jackett",
       "display_name": "Jackett",
       "description": "Torrent 索引器代理，为 Sonarr/Radarr 等工具提供统一的搜索接口。",
-      "version": "0.24.1537",
-      "fpk_version": "0.24.1537",
-      "release_tag": "jackett/v0.24.1537",
+      "version": "0.24.1539",
+      "fpk_version": "0.24.1539",
+      "release_tag": "jackett/v0.24.1539",
       "service_port": 9117,
       "homepage_url": "https://github.com/Jackett/Jackett",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/jackett/fnos/ICON_256.PNG",
@@ -927,7 +927,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-04-04T08:08:48Z",
+      "updated_at": "2026-04-05T08:08:32Z",
       "download_count": 57,
       "app_type": "native",
       "category": "automation"
@@ -949,7 +949,7 @@
         "arm"
       ],
       "updated_at": "2026-04-01T08:24:18Z",
-      "download_count": 162,
+      "download_count": 175,
       "app_type": "native",
       "category": "media"
     },
@@ -970,7 +970,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:25:00Z",
-      "download_count": 26,
+      "download_count": 29,
       "app_type": "docker",
       "category": "media"
     },
@@ -1012,7 +1012,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:25:18Z",
-      "download_count": 19,
+      "download_count": 21,
       "app_type": "docker",
       "category": "media"
     },
@@ -1033,7 +1033,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:25:09Z",
-      "download_count": 20,
+      "download_count": 22,
       "app_type": "docker",
       "category": "content"
     },
@@ -1170,9 +1170,9 @@
       "file_prefix": "localai",
       "display_name": "LocalAI",
       "description": "本地 AI 模型推理服务器，兼容 OpenAI API 接口。",
-      "version": "4.1.0",
-      "fpk_version": "4.1.0",
-      "release_tag": "localai/v4.1.0",
+      "version": "4.1.1",
+      "fpk_version": "4.1.1",
+      "release_tag": "localai/v4.1.1",
       "service_port": 8185,
       "homepage_url": "https://localai.io",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/localai/fnos/ICON_256.PNG",
@@ -1180,7 +1180,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-04-03T08:13:30Z",
+      "updated_at": "2026-04-05T08:08:09Z",
       "download_count": 28,
       "app_type": "docker",
       "category": "ai"
@@ -1329,7 +1329,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:24:38Z",
-      "download_count": 195,
+      "download_count": 198,
       "app_type": "docker",
       "category": "media"
     },
@@ -1360,9 +1360,9 @@
       "file_prefix": "miniflux",
       "display_name": "Miniflux",
       "description": "极简 RSS 阅读器，Go 编写，性能优异",
-      "version": "2.2.18",
-      "fpk_version": "2.2.18-r3",
-      "release_tag": "miniflux/v2.2.18-r3",
+      "version": "2.2.19",
+      "fpk_version": "2.2.19",
+      "release_tag": "miniflux/v2.2.19",
       "service_port": 8190,
       "homepage_url": "https://miniflux.app",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/miniflux/fnos/ICON_256.PNG",
@@ -1370,7 +1370,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-26T16:25:01Z",
+      "updated_at": "2026-04-05T08:08:08Z",
       "download_count": 6,
       "app_type": "docker",
       "category": "content"
@@ -1466,9 +1466,9 @@
       "file_prefix": "navidrome",
       "display_name": "Navidrome",
       "description": "开源的个人音乐流媒体服务器,兼容 Subsonic/Airsonic API,支持多用户和移动端应用。",
-      "version": "0.61.0",
-      "fpk_version": "0.61.0",
-      "release_tag": "navidrome/v0.61.0",
+      "version": "0.61.1",
+      "fpk_version": "0.61.1",
+      "release_tag": "navidrome/v0.61.1",
       "service_port": 4533,
       "homepage_url": "https://www.navidrome.org",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/navidrome/fnos/ICON_256.PNG",
@@ -1476,8 +1476,8 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-04-01T08:23:34Z",
-      "download_count": 44,
+      "updated_at": "2026-04-05T08:08:23Z",
+      "download_count": 47,
       "app_type": "native",
       "category": "media"
     },
@@ -1541,7 +1541,7 @@
         "arm"
       ],
       "updated_at": "2026-04-03T08:13:30Z",
-      "download_count": 24,
+      "download_count": 25,
       "app_type": "docker",
       "category": "content"
     },
@@ -1583,7 +1583,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:25:01Z",
-      "download_count": 19,
+      "download_count": 20,
       "app_type": "docker",
       "category": "system"
     },
@@ -1604,7 +1604,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:24:46Z",
-      "download_count": 27,
+      "download_count": 28,
       "app_type": "native",
       "category": "system"
     },
@@ -1625,7 +1625,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:23:50Z",
-      "download_count": 5,
+      "download_count": 6,
       "app_type": "docker",
       "category": "system"
     },
@@ -1646,7 +1646,7 @@
         "arm"
       ],
       "updated_at": "2026-03-31T08:19:01Z",
-      "download_count": 22,
+      "download_count": 23,
       "app_type": "native",
       "category": "system"
     },
@@ -1667,7 +1667,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:25:33Z",
-      "download_count": 143,
+      "download_count": 161,
       "app_type": "native",
       "category": "system"
     },
@@ -1730,7 +1730,7 @@
         "arm"
       ],
       "updated_at": "2026-03-27T08:11:37Z",
-      "download_count": 141,
+      "download_count": 144,
       "app_type": "docker",
       "category": "ai"
     },
@@ -1856,7 +1856,7 @@
         "arm"
       ],
       "updated_at": "2026-04-03T08:13:30Z",
-      "download_count": 170,
+      "download_count": 175,
       "app_type": "native",
       "category": "ai"
     },
@@ -1929,9 +1929,9 @@
       "file_prefix": "prowlarr",
       "display_name": "Prowlarr",
       "description": "索引器管理工具，集中管理和同步 Sonarr/Radarr 等应用的索引器",
-      "version": "2.3.0.5236",
-      "fpk_version": "2.3.0.5236-r3",
-      "release_tag": "prowlarr/v2.3.0.5236-r3",
+      "version": "2.3.5.5327",
+      "fpk_version": "2.3.5.5327",
+      "release_tag": "prowlarr/v2.3.5.5327",
       "service_port": 9696,
       "homepage_url": "https://prowlarr.com",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/prowlarr/fnos/ICON_256.PNG",
@@ -1939,8 +1939,8 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-03-26T16:25:22Z",
-      "download_count": 21,
+      "updated_at": "2026-04-05T08:08:36Z",
+      "download_count": 23,
       "app_type": "native",
       "category": "automation"
     },
@@ -1982,7 +1982,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:24:51Z",
-      "download_count": 147,
+      "download_count": 164,
       "app_type": "native",
       "category": "download"
     },
@@ -2003,7 +2003,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:24:36Z",
-      "download_count": 88,
+      "download_count": 89,
       "app_type": "native",
       "category": "automation"
     },
@@ -2034,9 +2034,9 @@
       "file_prefix": "reactive-resume",
       "display_name": "Reactive Resume",
       "description": "在线简历制作工具，支持多种模板和实时预览。",
-      "version": "v5.0.15",
-      "fpk_version": "v5.0.15",
-      "release_tag": "reactive-resume/vv5.0.15",
+      "version": "v5.0.16",
+      "fpk_version": "v5.0.16",
+      "release_tag": "reactive-resume/vv5.0.16",
       "service_port": 3200,
       "homepage_url": "https://github.com/amruthpillai/reactive-resume",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/reactive-resume/fnos/ICON_256.PNG",
@@ -2044,7 +2044,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-04-02T08:17:29Z",
+      "updated_at": "2026-04-05T08:08:09Z",
       "download_count": 17,
       "app_type": "docker",
       "category": "content"
@@ -2129,7 +2129,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:24:29Z",
-      "download_count": 17,
+      "download_count": 18,
       "app_type": "docker",
       "category": "media"
     },
@@ -2181,9 +2181,9 @@
       "file_prefix": "stirling-pdf",
       "display_name": "Stirling-PDF",
       "description": "功能强大的本地 PDF 工具箱，支持合并、拆分、OCR 等操作",
-      "version": "2.9.1",
-      "fpk_version": "2.9.1",
-      "release_tag": "stirling-pdf/v2.9.1",
+      "version": "2.9.2",
+      "fpk_version": "2.9.2",
+      "release_tag": "stirling-pdf/v2.9.2",
       "service_port": 18080,
       "homepage_url": "https://stirlingpdf.io",
       "icon_url": "https://raw.githubusercontent.com/conversun/fnos-apps/main/apps/stirling-pdf/fnos/ICON_256.PNG",
@@ -2191,7 +2191,7 @@
         "x86",
         "arm"
       ],
-      "updated_at": "2026-04-04T08:08:35Z",
+      "updated_at": "2026-04-05T08:08:08Z",
       "download_count": 76,
       "app_type": "docker",
       "category": "system"
@@ -2297,7 +2297,7 @@
         "arm"
       ],
       "updated_at": "2026-03-28T08:08:16Z",
-      "download_count": 61,
+      "download_count": 73,
       "app_type": "docker",
       "category": "network"
     },
@@ -2360,7 +2360,7 @@
         "arm"
       ],
       "updated_at": "2026-04-01T08:23:31Z",
-      "download_count": 51,
+      "download_count": 53,
       "app_type": "docker",
       "category": "download"
     },
@@ -2423,7 +2423,7 @@
         "arm"
       ],
       "updated_at": "2026-03-26T16:25:11Z",
-      "download_count": 59,
+      "download_count": 60,
       "app_type": "docker",
       "category": "network"
     },
