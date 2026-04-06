@@ -4,7 +4,7 @@
         "items": [
             {
                 "type": "tips",
-                "helpText": "MoviePilot 是影视自动化管理工具，支持自动订阅、下载、整理和通知。<br>默认管理员密码为 <b>password</b>，请在首次登录后修改密码。"
+                "helpText": "MoviePilot 是影视自动化管理工具，支持自动订阅、下载、整理和通知。<br>默认管理员用户名为 <b>admin</b>，初始密码为 <b>password</b>，<b>仅在首次安装 / 首次初始化时生效</b>。<br>如果你是重新安装但没有删除 Docker 数据卷，旧数据库会保留，密码不会重置；请在 MoviePilot 容器日志或设置中检查/修改管理员密码。"
             },
             {
                 "type": "tips",
