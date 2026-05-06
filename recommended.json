@@ -78,8 +78,8 @@
       "description": "Grafana 官方数据采集代理，收集日志、指标和链路追踪数据",
       "source_url": "https://github.com/jianyun8023/fnos-alloy/releases",
       "github_repo": "jianyun8023/fnos-alloy",
-      "latest_version": "1.16.0",
-      "updated_at": "2026-04-23T21:47:19Z"
+      "latest_version": "1.16.1",
+      "updated_at": "2026-05-05T21:50:06Z"
     },
     {
       "name": "scrutiny-collector",
@@ -168,8 +168,8 @@
       "description": "社区维护的 fnOS 应用仓库，包含驱动、系统工具、桌面环境等 20+ 款应用",
       "source_url": "https://github.com/RROrg/fn-apps/releases",
       "github_repo": "RROrg/fn-apps",
-      "latest_version": "2026.04.19-1017",
-      "updated_at": "2026-04-19T02:19:07Z"
+      "latest_version": "2026.05.06-0957",
+      "updated_at": "2026-05-06T01:58:56Z"
     }
   ]
 }
