@@ -6,8 +6,8 @@
       "description": "开源 AI Agent 运行时，支持 Windows/Mac/Linux/fnOS 一键部署。配置复杂不建议新手使用，建议使用 sophnet.com 快速体验，或使用 MaxKB",
       "source_url": "https://blog.910501.xyz/archives/openclaw",
       "github_repo": "cline/cline",
-      "latest_version": "cli-v3.0.14",
-      "updated_at": "2026-05-27T19:11:12Z"
+      "latest_version": "3.86.0",
+      "updated_at": "2026-05-28T18:24:47Z"
     },
     {
       "name": "peerbanhelper",
@@ -87,8 +87,8 @@
       "description": "硬盘 S.M.A.R.T. 健康数据采集器，配合 Scrutiny 面板使用",
       "source_url": "https://github.com/jianyun8023/fnos-scrutiny-collector/releases",
       "github_repo": "jianyun8023/fnos-scrutiny-collector",
-      "latest_version": "1.61.0",
-      "updated_at": "2026-05-24T21:49:53Z"
+      "latest_version": "1.62.0",
+      "updated_at": "2026-05-28T22:10:44Z"
     },
     {
       "name": "fn-fan",
