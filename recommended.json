@@ -6,8 +6,8 @@
       "description": "开源 AI Agent 运行时，支持 Windows/Mac/Linux/fnOS 一键部署。配置复杂不建议新手使用，建议使用 sophnet.com 快速体验，或使用 MaxKB",
       "source_url": "https://blog.910501.xyz/archives/openclaw",
       "github_repo": "cline/cline",
-      "latest_version": "cli-v3.0.17",
-      "updated_at": "2026-06-04T04:12:19Z"
+      "latest_version": "cli-v3.0.20",
+      "updated_at": "2026-06-05T00:24:24Z"
     },
     {
       "name": "peerbanhelper",
@@ -141,8 +141,8 @@
       "description": "轻量级 BT 下载客户端，ARM64 架构专用原生包",
       "source_url": "https://github.com/sushazhi/fnos-transmission/releases",
       "github_repo": "sushazhi/fnos-transmission",
-      "latest_version": "4.1.1.1",
-      "updated_at": "2026-05-22T14:06:22Z"
+      "latest_version": "4.1.2",
+      "updated_at": "2026-06-04T12:25:18Z"
     },
     {
       "name": "xunlei-arm",
