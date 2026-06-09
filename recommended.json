@@ -6,8 +6,8 @@
       "description": "开源 AI Agent 运行时，支持 Windows/Mac/Linux/fnOS 一键部署。配置复杂不建议新手使用，建议使用 sophnet.com 快速体验，或使用 MaxKB",
       "source_url": "https://blog.910501.xyz/archives/openclaw",
       "github_repo": "cline/cline",
-      "latest_version": "3.88.1",
-      "updated_at": "2026-06-07T01:51:30Z"
+      "latest_version": "cli-v3.0.21",
+      "updated_at": "2026-06-09T04:50:03Z"
     },
     {
       "name": "peerbanhelper",
@@ -78,8 +78,8 @@
       "description": "Grafana 官方数据采集代理，收集日志、指标和链路追踪数据",
       "source_url": "https://github.com/jianyun8023/fnos-alloy/releases",
       "github_repo": "jianyun8023/fnos-alloy",
-      "latest_version": "1.16.2",
-      "updated_at": "2026-06-02T22:18:42Z"
+      "latest_version": "1.16.3",
+      "updated_at": "2026-06-08T22:05:46Z"
     },
     {
       "name": "scrutiny-collector",
