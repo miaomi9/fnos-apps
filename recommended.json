@@ -6,8 +6,8 @@
       "description": "开源 AI Agent 运行时，支持 Windows/Mac/Linux/fnOS 一键部署。配置复杂不建议新手使用，建议使用 sophnet.com 快速体验，或使用 MaxKB",
       "source_url": "https://blog.910501.xyz/archives/openclaw",
       "github_repo": "cline/cline",
-      "latest_version": "desktop-v0.0.11",
-      "updated_at": "2026-08-09T04:16:07Z"
+      "latest_version": "4.1.8",
+      "updated_at": "2026-08-11T03:56:52Z"
     },
     {
       "name": "peerbanhelper",
@@ -168,8 +168,8 @@
       "description": "社区维护的 fnOS 应用仓库，包含驱动、系统工具、桌面环境等 20+ 款应用",
       "source_url": "https://github.com/RROrg/fn-apps/releases",
       "github_repo": "RROrg/fn-apps",
-      "latest_version": "2026.08.05-0227",
-      "updated_at": "2026-08-04T18:30:34Z"
+      "latest_version": "2026.08.10-2309",
+      "updated_at": "2026-08-10T15:12:11Z"
     }
   ]
 }
